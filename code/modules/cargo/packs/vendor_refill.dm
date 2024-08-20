@@ -48,22 +48,30 @@
 ///Pulsar 20/08/2024
 /datum/supply_pack/vendor_refill/mining
 	name = "Mining Equipement Supply Crate"
-	desc = "Improve your mining operations with this mining equipement supply crate."
+	desc = "Improve your mining operations with this mining equipement vending machine refill."
 	cost = 2500
 	contains = list(/obj/item/vending_refill/mining_equipment)
 	crate_name = "mining equipement crate"
 
 /datum/supply_pack/vendor_refill/medical
 	name = "Medical Supply Crate"
-	desc = "Keep yourself (and your crew) alive with this medical supply crate"
+	desc = "Keep yourself (and your crew) alive with this medical vending machine refill"
 	cost = 2500
 	contains = list(/obj/item/vending_refill/medical)
 	crate_name = "medical equipement crate"
 
 /datum/supply_pack/vendor_refill/engineering
-	name = "Engineering Supply Crate"
-	desc = "Start working on your machines properly with these engineering supply crates"
+	name = "Engineering Supply Crates"
+	desc = "Start working on your machines properly with these engineering vending machine refill"
 	cost = 3000
 	contains = list(/obj/item/vending_refill/engineering,
 					/obj/item/vending_refill/engivend)
 	crate_name = "engineering equipement crate"
+
+/datum/supply_pack/vendor_refill/hydroponics
+	name = "Hydroponics Supply Crates"
+	desc = "Got a green thumb ? This set of hydroponics vending machine refill will help you set up a neat little garden"
+	cost = 3000
+	contains = list(/obj/item/vending_refill/hydronutrients,
+					/obj/item/vending_refill/hydroseeds)
+	crate_name = "hydroponics equipement crate"
