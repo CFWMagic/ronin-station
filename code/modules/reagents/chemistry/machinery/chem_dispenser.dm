@@ -71,6 +71,7 @@
 		/datum/reagent/ash,
 		/datum/reagent/diethylamine,
 		/datum/reagent/fuel/oil,
+		/datum/reagent/phenol, /// Pulsar 20/08/2024
 		/datum/reagent/saltpetre
 	)
 	var/list/emagged_reagents = list(

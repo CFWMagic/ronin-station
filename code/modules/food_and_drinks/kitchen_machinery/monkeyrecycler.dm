@@ -12,7 +12,7 @@ GLOBAL_LIST_EMPTY(monkey_recyclers)
 	active_power_usage = ACTIVE_DRAW_MEDIUM
 	circuit = /obj/item/circuitboard/machine/monkey_recycler
 	var/stored_matter = 0
-	var/cube_production = 0.2
+	var/cube_production = 0.5 ///Pulsar 20/08/2024
 	var/list/connected = list()			//Keeps track of connected xenobio consoles, for deletion in /Destroy()
 
 /obj/machinery/monkey_recycler/Initialize(mapload)
@@ -28,7 +28,7 @@ GLOBAL_LIST_EMPTY(monkey_recyclers)
 	connected.Cut()
 	return ..()
 
-/obj/machinery/monkey_recycler/RefreshParts()	//Ranges from 0.2 to 0.8 per monkey recycled
+/obj/machinery/monkey_recycler/RefreshParts()	//Ranges from 0.5 to 2 per monkey recycled
 	cube_production = 0
 	for(var/obj/item/stock_parts/manipulator/B in component_parts)
 		cube_production += B.rating * 0.1
