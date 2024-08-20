@@ -44,3 +44,26 @@
 	cost = 1000
 	contains = list(/obj/item/vending_refill/games)
 	crate_name = "games supply crate"
+
+///Pulsar 20/08/2024
+/datum/supply_pack/vendor_refill/mining
+	name = "Mining Equipement Supply Crate"
+	desc = "Improve your mining operations with this mining equipement supply crate."
+	cost = 2500
+	contains = list(/obj/item/vending_refill/mining_equipment)
+	crate_name = "mining equipement crate"
+
+/datum/supply_pack/vendor_refill/medical
+	name = "Medical Supply Crate"
+	desc = "Keep yourself (and your crew) alive with this medical supply crate"
+	cost = 2500
+	contains = list(/obj/item/vending_refill/medical)
+	crate_name = "medical equipement crate"
+
+/datum/supply_pack/vendor_refill/engineering
+	name = "Engineering Supply Crate"
+	desc = "Start working on your machines properly with these engineering supply crates"
+	cost = 3000
+	contains = list(/obj/item/vending_refill/engineering,
+					/obj/item/vending_refill/engivend)
+	crate_name = "engineering equipement crate"
