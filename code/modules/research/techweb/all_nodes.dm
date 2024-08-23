@@ -87,7 +87,7 @@
 	display_name = "Advanced Biotechnology"
 	description = "Advanced Biotechnology"
 	prereq_ids = list("biotech")
-	design_ids = list("piercesyringe", "crewpinpointer", "smoke_machine", "plasmarefiller", "limbgrower", "meta_beaker", "healthanalyzer_advanced", "harvester", "holobarrier_med", "detective_scanner", "defibrillator_compact")
+	design_ids = list("piercesyringe", "crewpinpointer", "smoke_machine", "plasmarefiller", "limbgrower", "meta_beaker", "healthanalyzer_advanced", "harvester", "holobarrier_med", "detective_scanner", "defibrillator_compact", "autosurgeon")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -1134,14 +1134,23 @@
 
 /datum/techweb_node/syndicate_basic /// Pulsar 15/08/2024
 	id = "syndicate_basic"
-	display_name = "Illegal Technology"
+	display_name = "Basic Syndicate Technology"
 	description = "Dangerous research used to create dangerous objects."
 	prereq_ids = list("adv_engi", "adv_weaponry", "explosive_weapons")
-	design_ids = list("decloner", "borg_syndicate_module", "ai_cam_upgrade", "suppressor", "largecrossbow", "donksofttoyvendor", "donksoft_refill", "advanced_camera")
+	design_ids = list("decloner", "borg_syndicate_module", "ai_cam_upgrade", "suppressor", "largecrossbow", "donksofttoyvendor", "donksoft_refill", "advanced_camera", "c4")
 	boost_item_paths = list(/obj/item/research_notes/loot/genius)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 	hidden = TRUE
+
+/datum/techweb_node/syndicate_advanced /// Pulsar 23/08/2024
+	id = "syndicate_advanced"
+	display_name = "Advanced Syndicate Technology"
+	description = "Dangerous research used to create dangerous objects."
+	prereq_ids = list("syndicate_basic")
+	design_ids = list("x4", "energy_sword", "energy_shield")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 5000
 
 /datum/techweb_node/dex_robotics
 	id = "dex_robotics"

@@ -771,7 +771,7 @@
 	build_path = /obj/item/gun/energy/e_gun/smg
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-	
+
 /datum/design/e_gun/mini
 	name = "Energy Sidearm"
 	id = "e_gun_mini"
@@ -816,5 +816,43 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
 	build_path = /obj/item/gun/energy/laser/scatter
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/// Syndicate stuff - Pulsar 23/08/2024
+
+/datum/design/grenade/c4
+	name = "C4"
+	id = "c4"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 5000, /datum/material/plasma = 2500)
+	build_path = /obj/item/grenade/c4
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/grenade/x4
+	name = "X4"
+	id = "x4"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 8000, /datum/material/plasma = 5000, /datum/material/titanium = 1500)
+	build_path = /obj/item/grenade/c4/x4
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energy/sword
+	name = "Energy Sword"
+	id = "energy_sword"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
+	build_path = /obj/item/melee/transforming/energy/sword
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energy/shield
+	name = "Energy Shield"
+	id = "energy_shield"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
+	build_path = /obj/item/shield/energy
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY

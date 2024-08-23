@@ -251,6 +251,16 @@
 	build_path = /obj/item/reagent_containers/blood
 	category = list("Medical Designs")
 
+/datum/design/autosurgeon
+	name = "Autosurgeon"
+	desc = "Used to self insert cybernetics implants."
+	id = "autosurgeon"
+	build_type = PROTOLATHE
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+	materials = list(/datum/material/plastic = 10000)
+	build_path = /obj/item/autosurgeon
+	category = list("Medical Designs")
+
 /datum/design/portable_chem_mixer
 	name = "Portable Chemical Mixer"
 	desc = "A portable device that dispenses and mixes chemicals. Reagents have to be supplied with beakers."
