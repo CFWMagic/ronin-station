@@ -124,13 +124,14 @@
 /// (For eample: restart votes will default to "no restart", map votes will default to their preferred map / default map)
 /datum/config_entry/flag/default_no_vote
 
+// 24.08.23 - CFW - Multiply autotransfer vote time by 10 in both cases, effectively disabling it
 /datum/config_entry/number/vote_autotransfer_initial //length of time before the first autotransfer vote is called (deciseconds, default 2 hours)
-	config_entry_value = 72000
+	config_entry_value = 720000
 	integer = FALSE
 	min_val = 0
 
 /datum/config_entry/number/vote_autotransfer_interval //length of time to wait before subsequent autotransfer votes (deciseconds, default 30 minutes)
-	config_entry_value = 18000
+	config_entry_value = 180000
 	integer = FALSE
 	min_val = 0
 
