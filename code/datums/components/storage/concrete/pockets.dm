@@ -48,6 +48,7 @@
 	attack_hand_interact = FALSE
 	max_w_class = WEIGHT_CLASS_SMALL
 	quickdraw = FALSE
+	attack_hand_interact = TRUE // // 24.08.26 - CFW - Click opens boots
 	silent = TRUE
 
 /datum/component/storage/concrete/pockets/shoes/Initialize()
