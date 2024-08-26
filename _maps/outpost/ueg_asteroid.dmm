@@ -2013,6 +2013,7 @@
 /obj/machinery/camera/emp_proof{
 	dir = 9
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
 /area/outpost/crew/canteen)
 "hE" = (
@@ -2394,6 +2395,9 @@
 /area/outpost/engineering/atmospherics)
 "jc" = (
 /obj/structure/table/reinforced,
+/obj/item/multitool{
+	pixel_y = 5
+	},
 /turf/open/floor/plasteel/tech,
 /area/outpost/science)
 "je" = (
@@ -4045,16 +4049,6 @@
 	},
 /turf/open/floor/concrete/slab_2,
 /area/outpost/hallway/starboard)
-"oR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/white{
-	dir = 8
-	},
-/obj/structure/sign/poster/official/moth/epi{
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel,
-/area/outpost/vacant_rooms)
 "oS" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 4
@@ -4570,6 +4564,10 @@
 	},
 /turf/open/floor/grass,
 /area/outpost/crew/garden)
+"qA" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech,
+/area/outpost/science)
 "qC" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/status_display/ai{
@@ -5329,13 +5327,6 @@
 	},
 /turf/open/floor/concrete/tiles,
 /area/outpost/hallway/aft)
-"sS" = (
-/obj/structure/table/reinforced,
-/obj/item/multitool{
-	pixel_y = 5
-	},
-/turf/open/floor/plasteel/tech,
-/area/outpost/science)
 "sT" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -7579,9 +7570,6 @@
 /obj/structure/catwalk/over/plated_catwalk,
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/aft)
-"Ar" = (
-/turf/closed/indestructible/reinforced,
-/area/outpost/science)
 "As" = (
 /obj/machinery/computer/med_data,
 /obj/effect/turf_decal/trimline/opaque/green/filled/line,
@@ -9544,6 +9532,16 @@
 	dir = 1
 	},
 /area/outpost/cargo)
+"Hg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/sign/poster/official/moth/epi{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel,
+/area/outpost/vacant_rooms)
 "Hh" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 2;
@@ -14194,6 +14192,9 @@
 "XQ" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
+/area/outpost/science)
+"XR" = (
+/turf/closed/indestructible/reinforced,
 /area/outpost/science)
 "XS" = (
 /obj/effect/turf_decal/techfloor{
@@ -22724,7 +22725,7 @@ Qz
 Xf
 lN
 nj
-oR
+Hg
 kf
 Qz
 Ns
@@ -23205,17 +23206,17 @@ JS
 pU
 pU
 pU
-Ar
+XR
 iQ
 BA
 tv
-Ar
+XR
 ba
 DL
 FC
 IJ
 cB
-Ar
+XR
 dj
 dj
 dj
@@ -23332,13 +23333,13 @@ Qq
 AK
 tv
 tv
-Ar
+XR
 ua
 sI
 mZ
 IJ
 Lg
-Ar
+XR
 dj
 dj
 dj
@@ -23461,7 +23462,7 @@ gy
 wZ
 XQ
 CA
-Ar
+XR
 TJ
 TJ
 TJ
@@ -23578,7 +23579,7 @@ dU
 Td
 gx
 tv
-Ar
+XR
 zQ
 wc
 xE
@@ -23701,7 +23702,7 @@ Ji
 go
 Zb
 Hq
-Ar
+XR
 ee
 Vs
 VF
@@ -23820,17 +23821,17 @@ ye
 nV
 QA
 pU
-Ar
+XR
 BC
-Ar
-Ar
-Ar
+XR
+XR
+XR
 AR
 JB
-Ar
-Ar
-Ar
-Ar
+XR
+XR
+XR
+XR
 TJ
 dj
 UU
@@ -23946,14 +23947,14 @@ pU
 Hh
 pr
 vq
-Ar
+XR
 iQ
 iQ
 ff
 iQ
 zG
 tY
-Ar
+XR
 dj
 dj
 dj
@@ -24069,14 +24070,14 @@ pU
 OA
 iQ
 tv
-sS
+jc
 iQ
 iQ
 ff
 gK
 UY
 xv
-Ar
+XR
 Rq
 Rq
 Rq
@@ -24192,7 +24193,7 @@ pU
 XC
 iQ
 tv
-jc
+qA
 iQ
 iQ
 ff
@@ -24315,7 +24316,7 @@ pU
 NA
 iQ
 tv
-jc
+qA
 iQ
 iQ
 TQ
@@ -24561,7 +24562,7 @@ pU
 PT
 iQ
 BT
-Ar
+XR
 zS
 fP
 aN
@@ -24681,10 +24682,10 @@ nV
 pU
 pU
 pU
-Ar
-Ar
-Ar
-Ar
+XR
+XR
+XR
+XR
 Iq
 UY
 iQ
@@ -24804,17 +24805,17 @@ bd
 bd
 pU
 Ad
-Ar
+XR
 vr
 iQ
-Ar
+XR
 Wx
 dQ
 tv
 gK
 hF
 GG
-Ar
+XR
 dO
 gs
 gs
@@ -24927,7 +24928,7 @@ bd
 bd
 pU
 Ad
-Ar
+XR
 vr
 hE
 HD
@@ -24937,7 +24938,7 @@ lx
 fO
 UY
 MO
-Ar
+XR
 wE
 GL
 Ot
@@ -25050,17 +25051,17 @@ pU
 pU
 pU
 wS
-Ar
-Ar
-Ar
+XR
+XR
+XR
 wS
 wS
 wS
-Ar
-Ar
-Ar
-Ar
-Ar
+XR
+XR
+XR
+XR
+XR
 gs
 gs
 SX
