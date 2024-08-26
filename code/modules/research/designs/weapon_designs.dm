@@ -844,7 +844,7 @@
 	id = "energy_sword"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
-	build_path = /obj/item/melee/transforming/energy/sword
+	build_path = /obj/item/melee/transforming/energy/sword/saber
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
