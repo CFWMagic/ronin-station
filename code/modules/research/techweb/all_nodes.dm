@@ -1137,8 +1137,8 @@
 	display_name = "Basic Syndicate Technology"
 	description = "Dangerous research used to create dangerous objects."
 	prereq_ids = list("adv_engi", "adv_weaponry", "explosive_weapons")
-	design_ids = list("decloner", "borg_syndicate_module", "ai_cam_upgrade", "suppressor", "largecrossbow", "donksofttoyvendor", "donksoft_refill", "advanced_camera", "c4")
-	boost_item_paths = list(/obj/item/research_notes/loot/genius)
+	design_ids = list("decloner", "borg_syndicate_module", "ai_cam_upgrade", "suppressor", "largecrossbow", "donksofttoyvendor", "donksoft_refill", "advanced_camera", "c4", "c20r", "mag.45", "agent_id", "hardsuit_syndi", "magboots_syndi", "chameleon_kit", "imp_stealth", "imp_storage", "imp_freedom")
+	boost_item_paths = list(/obj/item/documents/syndicate/red)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 	hidden = TRUE
@@ -1148,7 +1148,7 @@
 	display_name = "Advanced Syndicate Technology"
 	description = "Dangerous research used to create dangerous objects."
 	prereq_ids = list("syndicate_basic")
-	design_ids = list("x4", "energy_sword", "energy_shield")
+	design_ids = list("x4", "energy_sword", "energy_shield", "hardsuit_syndi_elite", "ci-laser", "medibeam", "rocketlauncher", "pm9he", "pm9hedp", "bulldog", "mag.12gb", "mag.12gdb", "mag.12gs", "mag.12gms", "l6saw", "mm712x82", "mm712x82ap", "mm712x82hp", "mm712x82inc", "mm712x82match")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 

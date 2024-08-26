@@ -856,3 +856,147 @@
 	build_path = /obj/item/shield/energy
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ballistic/c20r
+	name = "C-20r SMG"
+	id = "c20r"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
+	build_path = /obj/item/gun/ballistic/automatic/smg/c20r
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/smg45
+	name = "SMG Magazine .45"
+	id = "mag.45"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000)
+	build_path = /obj/item/ammo_box/magazine/smgm45
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ballistic/rocketlauncher
+	name = "PML-9"
+	id = "rocketlauncher"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
+	build_path = /obj/item/gun/ballistic/rocketlauncher
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ammo/pm9he
+	name = "PM-9HE"
+	id = "pm9he"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 5000, /datum/material/plasma = 2500)
+	build_path = /obj/item/ammo_casing/caseless/rocket
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ammo/pm9hedp
+	name = "PM-9HEDP"
+	id = "pm9hedp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 8000, /datum/material/plasma = 5000, /datum/material/titanium = 1500)
+	build_path = /obj/item/ammo_casing/caseless/rocket/hedp
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ballistic/bulldog
+	name = "Bulldog Shotgun"
+	id = "bulldog"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
+	build_path = /obj/item/gun/ballistic/shotgun/bulldog
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/m12gb
+	name = "Shotgun drum magazine (Buckshot)"
+	id = "mag.12gb"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000)
+	build_path = /obj/item/ammo_box/magazine/m12g
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/m12gdb
+	name = "Shotgun drum magazine (Dragon's breath)"
+	id = "mag.12gdb"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/plasma = 2500)
+	build_path = /obj/item/ammo_box/magazine/m12g/dragon
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/m12gs
+	name = "Shotgun drum magazine (Slugs)"
+	id = "mag.12gs"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 18000)
+	build_path = /obj/item/ammo_box/magazine/m12g/slug
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/m12gms
+	name = "Shotgun drum magazine (Meteor slugs)"
+	id = "mag.12gms"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 18000)
+	build_path = /obj/item/ammo_box/magazine/m12g/meteor
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ballistic/l6saw
+	name = "L6 SAW"
+	id = "l6saw"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000, /datum/material/titanium = 1500)
+	build_path = /obj/item/gun/ballistic/automatic/hmg/l6_saw
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/mm712x82
+	name = "Box magazine (7.12x82mm)"
+	id = "mm712x82"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000)
+	build_path = /obj/item/ammo_box/magazine/mm712x82
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/mm712x82ap
+	name = "Box magazine (7.12x82mm AP)"
+	id = "mm712x82ap"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000)
+	build_path = /obj/item/ammo_box/magazine/mm712x82/ap
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/mm712x82hp
+	name = "Box magazine (7.12x82mm HP)"
+	id = "mm712x82hp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000)
+	build_path = /obj/item/ammo_box/magazine/mm712x82/hollow
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/mm712x82inc
+	name = "Box magazine (7.12x82mm incendiary)"
+	id = "mm712x82inc"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/plasma = 2500)
+	build_path = /obj/item/ammo_box/magazine/mm712x82/inc
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magazine/mm712x82match
+	name = "Box magazine (7.12x82mm match)"
+	id = "mm712x82match"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000)
+	build_path = /obj/item/ammo_box/magazine/mm712x82/match
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
