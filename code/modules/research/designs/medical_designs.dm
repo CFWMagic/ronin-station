@@ -824,3 +824,57 @@
 	surgery = /datum/surgery/advanced/necrotic_revival
 	research_icon_state = "surgery_head"
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+//////////////////
+///Syndie Stuff///
+//////////////////
+
+/datum/design/cyberimp_laser
+	name = "Arm-mounted laser implant"
+	desc = "A variant of the arm cannon implant that fires lethal laser beams. The cannon emerges from the subject's arm and remains inside when not in use."
+	id = "ci-laser"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list (/datum/material/iron = 2500, /datum/material/glass = 1500, /datum/material/silver = 1500)
+	build_path = /obj/item/organ/cyberimp/arm/gun/laser
+	category = list("Misc", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/medibeam
+	name = "Medbeam Gun"
+	desc = "A wonder of Syndicate engineering, the Medbeam gun, or Medi-Gun enables a medic to keep his fellow operatives in the fight, even while under fire. Don't cross the streams!"
+	id = "medibeam"
+	build_type = PROTOLATHE
+	materials = list (/datum/material/iron = 2500, /datum/material/glass = 1500, /datum/material/silver = 1500)
+	build_path = /obj/item/gun/medbeam
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/implanter/stealth
+	name = "Implanter (stealth)."
+	desc = "This one-of-a-kind implant will make you almost invisible if you play your cards right. On activation, it will conceal you inside a chameleon cardboard box that is only revealed once someone bumps into it."
+	id = "imp_stealth"
+	build_type = PROTOLATHE
+	materials = list (/datum/material/iron = 2500, /datum/material/glass = 1500, /datum/material/silver = 1500)
+	build_path = /obj/item/implanter/stealth
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/implanter/storage
+	name = "Implanter (storage)."
+	desc = "An implant injected into the body, and later activated at the user's will. It will open a small bluespace pocket capable of storing two regular-sized items."
+	id = "imp_storage"
+	build_type = PROTOLATHE
+	materials = list (/datum/material/iron = 2500, /datum/material/glass = 1500, /datum/material/silver = 1500)
+	build_path = /obj/item/implanter/storage
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/implanter/freedom
+	name = "Implanter (freedom)."
+	desc = "An implant injected into the body and later activated at the user's will. It will attempt to free the user from common restraints such as handcuffs."
+	id = "imp_freedom"
+	build_type = PROTOLATHE
+	materials = list (/datum/material/iron = 2500, /datum/material/glass = 1500, /datum/material/silver = 1500)
+	build_path = /obj/item/implanter/freedom
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL

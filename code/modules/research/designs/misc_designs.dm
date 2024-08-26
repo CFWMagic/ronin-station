@@ -631,3 +631,57 @@
 	materials = list(/datum/material/uranium = 1000, /datum/material/plastic = 2000)
 	build_path = /obj/item/fishing_rod/tech
 	category = list("Equipment")
+
+////////////////////////////////////////
+///////////Syndicate Stuff//////////////
+////////////////////////////////////////
+
+/datum/design/agent_id
+	name = "Agent Identification Card"
+	desc = "Agent cards prevent artificial intelligences from tracking the wearer, and can copy access from other identification cards. The access is cumulative, so scanning one card does not erase the access gained from another. In addition, they can be forged to display a new assignment and name. This can be done an unlimited amount of times. Some Syndicate areas and devices can only be accessed with these cards."
+	id = "agent_id"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
+	build_path = /obj/item/card/id/syndicate
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuit/syndi
+	name = "Blood-red hardsuit"
+	desc = "A dual-mode advanced hardsuit designed for special combat operations."
+	id = "hardsuit_syndi"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 5000, /datum/material/titanium = 10000)
+	build_path = /obj/item/clothing/head/helmet/space/hardsuit/syndi
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuit/syndi/elite
+	name = "Elite Syndicate hardsuit"
+	desc = "An elite version of the syndicate hardsuit, with improved armour and fireproofing."
+	id = "hardsuit_syndi_elite"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 25000, /datum/material/glass = 10000, /datum/material/titanium = 15000, /datum/material/diamond = 5000)
+	build_path = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/magboots/syndi
+	name = "Blood-red magboots"
+	desc = "Reverse-engineered magnetic boots that have a heavy magnetic pull."
+	id = "magboots_syndi"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/titanium = 5000)
+	build_path = /obj/item/clothing/shoes/magboots/syndie
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/box/chameleon
+	name = "Chameleon kit"
+	desc = "A set of items that contain chameleon technology allowing you to disguise as pretty much anything you can think of, and more."
+	id = "chameleon_kit"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/titanium = 5000)
+	build_path = /obj/item/storage/box/syndie_kit/chameleon
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
