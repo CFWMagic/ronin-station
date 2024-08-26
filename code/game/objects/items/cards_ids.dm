@@ -462,28 +462,32 @@ update_label()
 	registered_age = null
 
 /obj/item/card/id/ert/Initialize()
-	access = get_all_accesses()+get_ert_access("commander")-ACCESS_CHANGE_IDS
+	access = get_all_accesses()+get_ert_access("commander")+get_all_centcom_access()+get_all_syndicate_access()
+	add_ship_access(SSshuttle.get_ship(src))
 	. = ..()
 
 /obj/item/card/id/ert/security
 	icon_state = "ert_security"
 
 /obj/item/card/id/ert/security/Initialize()
-	access = get_all_accesses()+get_ert_access("sec")-ACCESS_CHANGE_IDS
+	access = get_all_accesses()+get_ert_access("sec")+get_all_centcom_access()+get_all_syndicate_access()
+	add_ship_access(SSshuttle.get_ship(src))
 	. = ..()
 
 /obj/item/card/id/ert/engineer
 	icon_state = "ert_engineer"
 
 /obj/item/card/id/ert/engineer/Initialize()
-	access = get_all_accesses()+get_ert_access("eng")-ACCESS_CHANGE_IDS
+	access = get_all_accesses()+get_ert_access("eng")+get_all_centcom_access()+get_all_syndicate_access()
+	add_ship_access(SSshuttle.get_ship(src))
 	. = ..()
 
 /obj/item/card/id/ert/medical
 	icon_state = "ert_medic"
 
 /obj/item/card/id/ert/medical/Initialize()
-	access = get_all_accesses()+get_ert_access("med")-ACCESS_CHANGE_IDS
+	access = get_all_accesses()+get_ert_access("med")+get_all_centcom_access()+get_all_syndicate_access()
+	add_ship_access(SSshuttle.get_ship(src))
 	. = ..()
 
 /obj/item/card/id/ert/chaplain
@@ -522,6 +526,7 @@ update_label()
 
 /obj/item/card/id/debug/Initialize()
 	access = get_all_accesses()+get_all_centcom_access()+get_all_syndicate_access()
+	add_ship_access(SSshuttle.get_ship(src))
 	. = ..()
 
 /obj/item/card/id/prisoner
