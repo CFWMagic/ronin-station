@@ -203,7 +203,7 @@ SUBSYSTEM_DEF(overmap)
 		fdel(OUTPOST_OVERRIDE_FILEPATH) // don't want it to affect 2 rounds in a row.
 
 	if(!found_type)
-		var/list/possible_types = subtypesof(/datum/overmap/outpost/nanotrasen_asteroid) // 24.08.17 - CFW - set nanotasen_asteroid as default outpost
+		var/list/possible_types = subtypesof(/datum/overmap/outpost/ueg_asteroid) // 24.08.17 - CFW - set ueg_asteroid as default outpost
 		for(var/datum/overmap/outpost/outpost_type as anything in possible_types)
 			if(!initial(outpost_type.main_template))
 				possible_types -= outpost_type

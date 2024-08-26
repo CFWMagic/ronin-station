@@ -33,6 +33,10 @@
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.use_sound = 'sound/items/storage/toolbox.ogg'
+// 24.08.26 - CFW - Change storage slots to volume for toolboxes, ala Sojourn	
+	STR.storage_flags = STORAGE_FLAGS_VOLUME_DEFAULT
+	STR.max_volume = STORAGE_VOLUME_CONTAINER_M
+	STR.max_w_class = MAX_WEIGHT_CLASS_M_CONTAINER
 
 /obj/item/storage/toolbox/update_overlays()
 	. = ..()

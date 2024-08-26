@@ -88,6 +88,35 @@
 	dock_width = 56
 	dock_height = 40
 
+// 24.08.26 - CFW - modified NT asteroid into UEG asteroid
+/datum/map_template/outpost/ueg_asteroid
+	name = "ueg_asteroid"
+
+/datum/map_template/outpost/hangar/nt_asteroid_20x20
+	name = "hangar/nt_asteroid_20x20"
+	dock_width = 20
+	dock_height = 20
+
+/datum/map_template/outpost/hangar/nt_asteroid_40x20
+	name = "hangar/nt_asteroid_40x20"
+	dock_width = 40
+	dock_height = 20
+
+/datum/map_template/outpost/hangar/nt_asteroid_40x40
+	name = "hangar/nt_asteroid_40x40"
+	dock_width = 40
+	dock_height = 40
+
+/datum/map_template/outpost/hangar/nt_asteroid_56x20
+	name = "hangar/nt_asteroid_56x20"
+	dock_width = 56
+	dock_height = 20
+
+/datum/map_template/outpost/hangar/nt_asteroid_56x40
+	name = "hangar/nt_asteroid_56x40"
+	dock_width = 56
+	dock_height = 40
+
 /*
 	Nanotrasen Ice Planet
 */
@@ -144,11 +173,25 @@
 		/datum/map_template/outpost/hangar/nt_asteroid_56x40
 	)
 
-// 24.08.17 - CFW - Hacky way to force nt_asteroid as the default outpost while still allowing overrides
-
-/datum/overmap/outpost/nanotrasen_asteroid/override
+// 24.08.26 - CFW - set up UEG asteroid
+/datum/overmap/outpost/ueg_asteroid
 	token_icon_state = "station_asteroid_0"
-	main_template = /datum/map_template/outpost/nt_asteroid
+	main_template = /datum/map_template/outpost/ueg_asteroid
+	elevator_template = /datum/map_template/outpost/elevator_test
+	// Using a second list of hangar templates.
+	hangar_templates = list(
+		/datum/map_template/outpost/hangar/nt_asteroid_20x20,
+		/datum/map_template/outpost/hangar/nt_asteroid_40x20,
+		/datum/map_template/outpost/hangar/nt_asteroid_40x40,
+		/datum/map_template/outpost/hangar/nt_asteroid_56x20,
+		/datum/map_template/outpost/hangar/nt_asteroid_56x40
+	)
+
+// 24.08.17 - CFW - Hacky way to force ueg_asteroid as the default outpost while still allowing overrides
+
+/datum/overmap/outpost/ueg_asteroid/override
+	token_icon_state = "station_asteroid_0"
+	main_template = /datum/map_template/outpost/ueg_asteroid
 	elevator_template = /datum/map_template/outpost/elevator_test
 	// Using a second list of hangar templates.
 	hangar_templates = list(

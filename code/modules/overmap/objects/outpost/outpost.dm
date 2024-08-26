@@ -131,7 +131,7 @@
 			if(4)
 				person_name = vox_name()
 
-	return "[person_name] [pick(GLOB.station_suffixes)]"
+	return "Alpha Relay" //"[person_name] [pick(GLOB.station_suffixes)]" // 24.08.26 - CFW - Static Outpost name (for now)
 
 /datum/overmap/outpost/proc/fill_missions()
 	while(LAZYLEN(missions) < max_missions)

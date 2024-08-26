@@ -204,6 +204,34 @@
 	name = "Shop"
 	icon_state = "vacant_room"
 
+/// Science Lab ///
+/area/outpost/science
+	name = "Science Lab"
+	icon_state = "toxlab"
+	lighting_colour_tube = "#f0fbff"
+	lighting_colour_bulb = "#e4f7ff"
+
+/area/outpost/science/xenobiology
+	name = "Xenobiology Lab"
+	icon_state = "xenolab"
+
+/area/outpost/science/storage
+	name = "Toxins Storage"
+	icon_state = "toxstorage"
+
+/area/outpost/misc_lab
+	name = "Testing Lab"
+	icon_state = "toxmisc"
+
+/area/outpost/science/robotics
+	name = "Robotics"
+	icon_state = "medresearch"
+
+/area/outpost/science/ai_chamber
+	name = "AI Chamber"
+	icon_state = "ai_chamber"
+	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/ambitech.ogg', 'sound/ambience/ambitech2.ogg', 'sound/ambience/ambiatmos.ogg', 'sound/ambience/ambiatmos2.ogg')
+
 //for powered outdoors non-space areas -- uses ice planet ambience
 
 /area/outpost/exterior

@@ -198,14 +198,14 @@
 	item_flags = NO_MAT_REDEMPTION
 	instant_load = TRUE
 
-// Ammo Boxes
+// Ammo Boxes 24.08.26 CFW - Increase ammo in boxes across the board
 
 /obj/item/ammo_box/c38_box
 	name = "ammo box (.38)"
 	desc = "A box of standard .38 Special ammo."
 	icon_state = "38box"
 	ammo_type = /obj/item/ammo_casing/c38
-	max_ammo = 50
+	max_ammo = 100 //50
 
 /obj/item/ammo_box/c38_box/surplus
 	name = "ammo box (.38 surplus)"
@@ -218,7 +218,7 @@
 	desc = "A box of 12-gauge buckshot shells, devastating at close range."
 	icon_state = "12gbox-buckshot"
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
-	max_ammo = 25
+	max_ammo = 40 //25
 
 /obj/item/ammo_box/a12g/slug
 	name = "ammo box (12g slug)"
@@ -243,7 +243,7 @@
 	desc = "A box of standard 9mm ammo."
 	icon_state = "9mmbox"
 	ammo_type = /obj/item/ammo_casing/c9mm
-	max_ammo = 50
+	max_ammo = 100 //50
 
 /obj/item/ammo_box/c9mm/surplus
 	name = "ammo box (9mm surplus)"
@@ -280,7 +280,7 @@
 	desc = "A box of standard 10mm ammo."
 	icon_state = "10mmbox"
 	ammo_type = /obj/item/ammo_casing/c10mm
-	max_ammo = 50
+	max_ammo = 100 //50
 
 /obj/item/ammo_box/c10mm/surplus
 	name = "ammo box (10mm surplus)"
@@ -317,7 +317,7 @@
 	desc = "A box of standard .45 ammo."
 	icon_state = "45box"
 	ammo_type = /obj/item/ammo_casing/c45
-	max_ammo = 50
+	max_ammo = 100 //50
 
 /obj/item/ammo_box/c45/surplus
 	name = "ammo box (.45 surplus)"
@@ -354,7 +354,7 @@
 	desc = "A box of 5.56mm HITP caseless ammo, a SolGov standard."
 	icon_state = "556mmHITPbox"
 	ammo_type = /obj/item/ammo_casing/caseless/c556mm
-	max_ammo = 50
+	max_ammo = 100 //50
 
 /obj/item/ammo_box/c556mmHITP/surplus
 	name = "ammo box (5.56mm HITP caseless surplus)"
@@ -384,7 +384,7 @@
 	name = "ammo box (40mm grenades)"
 	icon_state = "40mm"
 	ammo_type = /obj/item/ammo_casing/a40mm
-	max_ammo = 4
+	max_ammo = 20 //4
 	multiple_sprites = AMMO_BOX_PER_BULLET
 	w_class = WEIGHT_CLASS_NORMAL
 
@@ -402,7 +402,7 @@
 	name = "ammo box (.308)"
 	icon_state = "a308box"
 	ammo_type = /obj/item/ammo_casing/a308
-	max_ammo = 30
+	max_ammo = 80 //30
 
 /obj/item/ammo_box/a308/hunterspride //just an alternative graphic for srm ships
 	icon_state = "a308box-HP"
@@ -412,7 +412,7 @@
 	icon = 'icons/obj/guns/toy.dmi'
 	icon_state = "foambox"
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart
-	max_ammo = 40
+	max_ammo = 100 //40
 	custom_materials = list(/datum/material/iron = 500)
 
 /obj/item/ammo_box/foambox/riot
@@ -425,7 +425,7 @@
 	desc = "A box of standard .22 LR ammo."
 	icon_state = "22lrbox"
 	ammo_type = /obj/item/ammo_casing/c22lr
-	max_ammo = 75
+	max_ammo = 100 //75
 
 /obj/item/ammo_box/a44roum_speedloader
 	name = "speed loader (.44)"
@@ -448,14 +448,14 @@
 	desc = "A box of standard 4.6x30mm ammo."
 	icon_state = "46x30mmbox"
 	ammo_type = /obj/item/ammo_casing/c46x30mm
-	max_ammo = 50
+	max_ammo = 100 //50
 
 /obj/item/ammo_box/c8x50mm_box
 	name = "ammo box (8x50mm)"
 	desc = "A box of standard 8x50mm ammo."
 	icon_state = "8x50mmbox"
 	ammo_type = /obj/item/ammo_casing/a8_50r
-	max_ammo = 25
+	max_ammo = 80 //25
 
 /obj/item/ammo_box/ferropelletbox
 	name = "ammo box (ferromagnetic pellets)"
@@ -469,7 +469,7 @@
 	desc = "A box of standard ferromagnetic slugs."
 	icon_state = "ferroslugsbox"
 	ammo_type = /obj/item/ammo_casing/caseless/gauss/slug
-	max_ammo = 20
+	max_ammo = 50 //20
 
 /obj/item/ammo_box/ferrolancebox
 	name = "ammo box (ferromagnetic lances)"
@@ -483,14 +483,14 @@
 	desc = "A box of hollow point 8x50mm ammo, designed to cause massive damage at the cost of armor penetration."
 	icon_state = "8x50mmbox-hp"
 	ammo_type = /obj/item/ammo_casing/a8_50rhp
-	max_ammo = 20
+	max_ammo = 80 //20
 
 /obj/item/ammo_box/a300_box
 	name = "ammo box (.300 Magnum)"
 	desc = "A box of standard .300 Magnum ammo."
 	icon_state = "300box"
 	ammo_type = /obj/item/ammo_casing/a300
-	max_ammo = 20
+	max_ammo = 80 //20
 
 /obj/item/ammo_box/a44roum
 	name = "ammo box (.44 roumain)"

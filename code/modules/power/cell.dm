@@ -314,7 +314,7 @@
 	update_appearance()
 
 /obj/item/stock_parts/cell/infinite
-	name = "infinite-capacity power cell!"
+	name = "infinite-capacity power cell"
 	icon_state = "icell"
 	maxcharge = 30000
 	custom_materials = list(/datum/material/glass=1000)

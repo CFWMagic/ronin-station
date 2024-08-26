@@ -101,7 +101,7 @@
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
 /obj/item/gun/energy/attack_hand(mob/user)
-	if(!internal_cell && loc == user && user.is_holding(src) && cell && tac_reloads)
+	if(!internal_cell && loc == user && user.is_holding(src) && cell) // 24.08.26 CFW - testing hand-loadable energy, removed && tac_reloads
 		eject_cell(user)
 		return
 	return ..()

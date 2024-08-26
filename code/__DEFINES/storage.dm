@@ -80,8 +80,9 @@ GLOBAL_LIST_INIT(default_weight_class_to_volume, list(
 #define MAX_WEIGHT_CLASS_DUFFEL WEIGHT_CLASS_BULKY
 
 // max_volume for storages
-#define STORAGE_VOLUME_CONTAINER_S DEFAULT_VOLUME_NORMAL //3 small items
-#define STORAGE_VOLUME_CONTAINER_M (DEFAULT_VOLUME_NORMAL * 2) //6 small items
+// 24.08.26 - CFW - Increase base storage volume for containers
+#define STORAGE_VOLUME_CONTAINER_S DEFAULT_VOLUME_NORMAL * 2 //6 small items, was 3 small items
+#define STORAGE_VOLUME_CONTAINER_M (DEFAULT_VOLUME_NORMAL * 3) //9 small items, was 6 small items
 #define STORAGE_VOLUME_SATCHEL (DEFAULT_VOLUME_NORMAL * 4) //4 normal items
 #define STORAGE_VOLUME_BACKPACK (DEFAULT_VOLUME_NORMAL * 6) //6 normal items, or 3 bulky items
 #define STORAGE_VOLUME_DUFFLEBAG (DEFAULT_VOLUME_NORMAL * 8) // 2 huge items, or 4 bulky items

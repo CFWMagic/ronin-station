@@ -91,24 +91,76 @@
 	light_mask = "marine-mask"
 	req_access = list(ACCESS_SYNDICATE)
 	products = list(
-		/obj/item/screwdriver = 5,
-		/obj/item/restraints/handcuffs = 10,
-		/obj/item/assembly/flash/handheld = 10,
-		/obj/item/flashlight/seclite = 10,
+//	24.08.26 - CFW - Add both NT and Syndie options to the independent marine vendor		
+//		/obj/item/screwdriver = 5,
+//		/obj/item/restraints/handcuffs = 10,
+//		/obj/item/assembly/flash/handheld = 10,
+//		/obj/item/flashlight/seclite = 10,
 
-		/obj/item/storage/box/lethalshot = 6,
-		/obj/item/stock_parts/cell/gun = 5,
-		/obj/item/ammo_box/magazine/uzim9mm = 5,
+//		/obj/item/storage/box/lethalshot = 6,
+//		/obj/item/stock_parts/cell/gun = 5,
 
-		/obj/item/grenade/c4 = 5,
-		/obj/item/grenade/frag = 5,
+// Cells
+		/obj/item/stock_parts/cell/gun/upgraded = 50,
+
+// Magazines
+		/obj/item/ammo_box/magazine/uzim9mm = 50,
+		/obj/item/ammo_box/magazine/m10mm = 50,
+		/obj/item/ammo_box/magazine/smgm45 = 50,
+		/obj/item/ammo_box/magazine/sniper_rounds = 50,
+		/obj/item/ammo_box/magazine/m556 = 50,
+		/obj/item/ammo_box/magazine/m12g = 50,
+		/obj/item/ammo_box/magazine/ebr = 50,
+
+// Ammo Boxes
+		/obj/item/storage/toolbox/ammo = 50,
+		/obj/item/ammo_box/c9mm = 800,
+		/obj/item/ammo_box/c9mm/ap = 800,
+		/obj/item/ammo_box/c9mm/hp = 800,
+		/obj/item/ammo_box/c9mm/fire = 800,
+		/obj/item/ammo_box/c10mm = 800,
+		/obj/item/ammo_box/c10mm/ap = 800,
+		/obj/item/ammo_box/c10mm/hp = 800,
+		/obj/item/ammo_box/c10mm/fire = 800,
+		/obj/item/ammo_box/c45 = 800,
+		/obj/item/ammo_box/c45/ap = 800,
+		/obj/item/ammo_box/c45/hp = 800,
+		/obj/item/ammo_box/c45/fire = 800,
+		/obj/item/ammo_box/c38_box = 800,
+		/obj/item/ammo_box/c556mmHITP = 800,
+		/obj/item/ammo_box/c556mmHITP/ap = 800,
+		/obj/item/ammo_box/c556mmHITP/hp = 800,
+		/obj/item/ammo_box/a762_40 = 800,
+		/obj/item/ammo_box/a308 = 800,
+		/obj/item/ammo_box/a12g = 800,
+		/obj/item/ammo_box/a12g/slug = 800,
+		/obj/item/ammo_box/c46x30mm_box = 800,
+		/obj/item/ammo_box/c8x50mm_box = 800,
+		/obj/item/ammo_box/c8x50mmhp_box = 800,
+		/obj/item/ammo_box/a300_box = 800,
+
+// Explosives
+		/obj/item/ammo_box/a40mm = 800,
+		/obj/item/grenade/frag = 50,
+		/obj/item/grenade/syndieminibomb/concussion = 50,
+		/obj/item/grenade/empgrenade = 50,
+		/obj/item/grenade/c4 = 50,
+		/obj/item/grenade/c4/x4 = 50,
+		/obj/item/gun/ballistic/rocketlauncher/solgov = 50,
 		)
 	contraband = list()
 	premium = list()
 	voucher_items = list(
-		"Tactical Energy Gun" = /obj/item/gun/energy/e_gun/hades,
+		"SL AL-655 Energy Rifle" = /obj/item/gun/energy/e_gun/hades,
+		"NT-E-Rifle" = /obj/item/gun/energy/e_gun,
+		"E-TAR SMG" = /obj/item/gun/energy/e_gun/smg,
+		"E-SG 500" = /obj/item/gun/energy/e_gun/iot,
 		"Combat Shotgun" = /obj/item/gun/ballistic/shotgun/automatic/combat,
-		"Type U3 Uzi" = /obj/item/gun/ballistic/automatic/smg/mini_uzi)
+		"Type U3 Uzi" = /obj/item/gun/ballistic/automatic/smg/mini_uzi,
+		"M-90gl Carbine" = /obj/item/gun/ballistic/automatic/smg/m90,
+		"sniper rifle" = /obj/item/gun/ballistic/automatic/marksman/sniper_rifle,
+		"C-20r SMG" = /obj/item/gun/ballistic/automatic/smg/c20r,
+		"Bulldog Shotgun" = /obj/item/gun/ballistic/shotgun/bulldog)
 
 /obj/machinery/vending/security/marine/syndicate
 	icon_state = "syndicate-marine"
