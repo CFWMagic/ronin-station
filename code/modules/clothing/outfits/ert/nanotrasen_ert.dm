@@ -291,7 +291,7 @@
 	r_pocket = /obj/item/tank/internals/emergency_oxygen/double
 	uniform = /obj/item/clothing/under/rank/security/officer/military
 	accessory = /obj/item/clothing/accessory/holster/marine
-	mask = /obj/item/clothing/mask/gas/sechailer
+	mask = /obj/item/clothing/mask/gas/sechailer/swat/spacepol
 	head = /obj/item/clothing/head/helmet/marine
 
 /datum/outfit/centcom/ert/marine/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)

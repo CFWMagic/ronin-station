@@ -17,14 +17,16 @@
 /obj/item/clothing/mask/gas/sechailer/swat
 	name = "\improper SWAT mask"
 	desc = "A close-fitting tactical mask with an especially aggressive Compli-o-nator 3000."
+	actions_types = null // 24.08.26 - CFW - SWAT masks are't adjustable
 	icon_state = "swat"
 	item_state = "swat"
 	flags_inv = HIDEFACIALHAIR | HIDEFACE | HIDEEYES | HIDEEARS | HIDEHAIR
 	visor_flags_inv = 0
 
 /obj/item/clothing/mask/gas/sechailer/swat/spacepol
-	name = "spacepol mask"
-	desc = "A close-fitting tactical mask created in cooperation with a certain megacorporation, comes with an especially aggressive Compli-o-nator 3000."
+	name = "military mask"
+	desc = "A close-fitting tactical mask commonly found in use with Earth Gov military."
+	actions_types = null // 24.08.26 - CFW - SWAT masks are't adjustable
 	icon_state = "spacepol"
 	item_state = "spacepol"
 

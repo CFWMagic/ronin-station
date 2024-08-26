@@ -55,7 +55,9 @@ GLOBAL_VAR(command_name)
 
 	var/config_server_name = CONFIG_GET(string/servername)
 	if(config_server_name)
-		world.name = "[config_server_name][config_server_name == GLOB.station_name ? "" : ": [GLOB.station_name]"]"
+	// 24.08.26 - CFW - Set static server name
+	//	world.name = "[config_server_name][config_server_name == GLOB.station_name ? "" : ": [GLOB.station_name]"]"
+		world.name = "[config_server_name]"
 	else
 		world.name = GLOB.station_name
 
