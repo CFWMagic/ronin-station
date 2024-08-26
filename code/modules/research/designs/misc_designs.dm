@@ -281,6 +281,15 @@
 	build_path = /obj/item/tank/internals/oxygen/empty
 	category = list("Equipment")
 
+/datum/design/double_oxygen_tank
+	name = "Double Emergency Oxygen Tank"
+	desc = "A double emergency oxygen tank."
+	id = "double_oxygen_tank"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 2000)
+	build_path = /obj/item/tank/internals/emergency_oxygen/double
+	category = list("Equipment")
+
 /datum/design/plasma_tank
 	name = "Plasma Tank"
 	desc = "An empty oxygen tank."
