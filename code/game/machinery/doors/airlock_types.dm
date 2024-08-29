@@ -607,3 +607,7 @@
 	if(C.tool_behaviour == TOOL_SCREWDRIVER)
 		return
 	..()
+
+/obj/machinery/door/airlock/outpost/glass //secure anti-tiding airlock
+	opacity = FALSE
+	glass = TRUE

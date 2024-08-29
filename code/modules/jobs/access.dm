@@ -403,9 +403,9 @@
 		if(ACCESS_CENT_TELEPORTER)
 			return "Research" // 107 "Code Blue"
 		if(ACCESS_CENT_CAPTAIN)
-			return "Command" // 108 "Code Gold"
+			return "Command" // 109 "Code Gold"
 		if(ACCESS_CENT_BAR)
-			return "Service" // 109 "Code Scotch"
+			return "Service" // 110 "Code Scotch"
 
 /proc/get_all_jobs()
 	return list("Assistant", "Captain", "Head of Personnel", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",
