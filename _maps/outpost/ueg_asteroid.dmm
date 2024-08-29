@@ -165,7 +165,7 @@
 /obj/effect/turf_decal/trimline/opaque/purple/filled/line{
 	dir = 1
 	},
-/obj/machinery/computer/card/outpost/centcom{
+/obj/machinery/computer/card/outpost{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -4919,7 +4919,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/camera/emp_proof{
 	dir = 4;
-	name = Barracks - Lounge
+	name = Barracks-Lounge
 	},
 /turf/open/floor/plasteel,
 /area/outpost/crew/canteen)
@@ -9855,7 +9855,7 @@
 /obj/effect/turf_decal/techfloor{
 	dir = 1
 	},
-/obj/machinery/computer/card/outpost,
+/obj/machinery/computer/aifixer,
 /turf/open/floor/plasteel/dark,
 /area/outpost/operations)
 "HG" = (
@@ -10592,10 +10592,10 @@
 /turf/open/floor/plasteel/white,
 /area/outpost/medical)
 "Ke" = (
-/obj/machinery/computer/aifixer{
+/obj/effect/turf_decal/trimline/opaque/purple/filled/line,
+/obj/machinery/computer/card/outpost/centcom{
 	dir = 8
 	},
-/obj/effect/turf_decal/trimline/opaque/purple/filled/line,
 /turf/open/floor/plasteel/dark,
 /area/outpost/operations)
 "Kf" = (
@@ -13963,21 +13963,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/outpost/hallway/central)
-"VM" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plasteel/tech,
-/area/outpost/science)
 "VN" = (
 /turf/open/floor/engine,
 /area/outpost/crew/cryo)
@@ -14391,13 +14376,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/slab_3,
 /area/outpost/crew/garden)
-"XC" = (
-/obj/machinery/computer/rdconsole/robotics,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plasteel/tech,
-/area/outpost/science)
 "XD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
@@ -24476,9 +24454,9 @@ NA
 MO
 Oi
 XR
-XC
-GG
-VM
+qA
+iQ
+It
 gK
 UY
 GC

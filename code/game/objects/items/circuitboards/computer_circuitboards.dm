@@ -23,6 +23,15 @@
 	name = "CentCom ID Console (Computer Board)"
 	build_path = /obj/machinery/computer/card/centcom
 
+/obj/item/circuitboard/computer/card/outpost
+	name = "Outpost ID Console (Computer Board)"
+	icon_state = "command"
+	build_path = /obj/machinery/computer/card/outpost
+
+/obj/item/circuitboard/computer/card/outpost/centcom
+	name = "Outpost HQ ID Console (Computer Board)"
+	build_path = /obj/machinery/computer/card/outpost/centcom
+
 /obj/item/circuitboard/computer/card/minor
 	name = "Department Management Console (Computer Board)"
 	build_path = /obj/machinery/computer/card/minor

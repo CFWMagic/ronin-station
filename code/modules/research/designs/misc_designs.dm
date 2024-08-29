@@ -652,7 +652,7 @@
 	id = "hardsuit_syndi"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000, /datum/material/glass = 5000, /datum/material/titanium = 10000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi
+	build_path = /obj/item/clothing/head/helmet/space/hardsuit/syndi
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -662,7 +662,7 @@
 	id = "hardsuit_syndi_elite"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 25000, /datum/material/glass = 10000, /datum/material/titanium = 15000, /datum/material/diamond = 5000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite
+	build_path = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
