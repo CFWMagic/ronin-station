@@ -92,23 +92,33 @@
 	//BEGIN CENTCOM ACCESS
 	/*Should leave plenty of room if we need to add more access levels.
 	Mostly for admin fun times.*/
-/// General facilities. CentCom ferry.
+// 24.08.29 - CFW - Rework CC access into Outpost access
+
+/// Maintenance
 #define ACCESS_CENT_GENERAL 101
-/// Thunderdome.
+
+/// Engineering - Engi/Atmos
 #define ACCESS_CENT_THUNDER 102
-/// Special Ops. Captain's display case, Marauder and Seraph mechs.
+
+/// Marine - Security
 #define ACCESS_CENT_SPECOPS 103
-/// Medical/Research
+
+/// Medical
 #define ACCESS_CENT_MEDICAL 104
-/// Living quarters.
+
+/// Crew Quarters
 #define ACCESS_CENT_LIVING 105
-/// Generic storage areas.
+
+/// Logistics
 #define ACCESS_CENT_STORAGE 106
-/// Teleporter.
+
+/// Research
 #define ACCESS_CENT_TELEPORTER 107
-/// Captain's office/ID comp/AI.
+
+/// Command
 #define ACCESS_CENT_CAPTAIN 109
-/// The non-existent CentCom Bar
+
+/// Service
 #define ACCESS_CENT_BAR 110
 
 	//The Syndicate
