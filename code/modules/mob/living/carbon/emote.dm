@@ -58,6 +58,23 @@
 							'sound/misc/clap3.ogg',
 							'sound/misc/clap4.ogg')
 
+/datum/emote/living/carbon/fingersnap
+	key = "snap"
+	key_third_person = "snaps"
+	message = "snaps their fingers."
+	muzzle_ignore = TRUE
+	hands_use_check = TRUE
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+
+/datum/emote/living/carbon/fingersnap/get_sound(mob/living/user)
+	if(ishuman(user))
+		if(!user.get_bodypart(BODY_ZONE_L_ARM) || !user.get_bodypart(BODY_ZONE_R_ARM))
+			return
+		else
+			return pick('sound/misc/fingersnap1.ogg',
+							'sound/misc/fingersnap2.ogg')
+
 /datum/emote/living/carbon/crack
 	key = "crack"
 	key_third_person = "cracks"
