@@ -97,7 +97,7 @@
 /// Maintenance
 #define ACCESS_CENT_GENERAL 101
 
-/// Engineering - Engi/Atmos
+/// Engineering - Engie/Atmos
 #define ACCESS_CENT_THUNDER 102
 
 /// Marine - Security
