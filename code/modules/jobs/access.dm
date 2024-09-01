@@ -385,26 +385,27 @@
 			return "SolGov Office"
 //WS End
 
+// 24.08.29 - CFW - Rework CC access into Outpost access
 /proc/get_centcom_access_desc(A)
 	switch(A)
 		if(ACCESS_CENT_GENERAL)
-			return "Code Grey"
+			return "Maintenance" // 101 "Code Grey"
 		if(ACCESS_CENT_THUNDER)
-			return "Code Yellow"
-		if(ACCESS_CENT_STORAGE)
-			return "Code Orange"
-		if(ACCESS_CENT_LIVING)
-			return "Code Green"
-		if(ACCESS_CENT_MEDICAL)
-			return "Code White"
-		if(ACCESS_CENT_TELEPORTER)
-			return "Code Blue"
+			return "Engineering" // 102 "Code Yellow"
 		if(ACCESS_CENT_SPECOPS)
-			return "Code Black"
+			return "Marine" // 103 "Code Black"
+		if(ACCESS_CENT_MEDICAL)
+			return "Medical" // 104 "Code White"
+		if(ACCESS_CENT_LIVING)
+			return "Crew" // 105 "Code Green"
+		if(ACCESS_CENT_STORAGE)
+			return "Logistics" // 106 "Code Orange"
+		if(ACCESS_CENT_TELEPORTER)
+			return "Research" // 107 "Code Blue"
 		if(ACCESS_CENT_CAPTAIN)
-			return "Code Gold"
+			return "Command" // 109 "Code Gold"
 		if(ACCESS_CENT_BAR)
-			return "Code Scotch"
+			return "Service" // 110 "Code Scotch"
 
 /proc/get_all_jobs()
 	return list("Assistant", "Captain", "Head of Personnel", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",

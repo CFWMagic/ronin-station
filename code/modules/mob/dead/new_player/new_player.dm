@@ -291,11 +291,12 @@
 	if(auth_check)
 		return
 
-	if(!client.prefs.randomise[RANDOM_NAME]) // do they have random names enabled
-		var/name = client.prefs.real_name
-		if(GLOB.real_names_joined.Find(name)) // is there someone who spawned with the same name
-			to_chat(usr, "<span class='warning'>Someone has spawned with this name already.")
-			return FALSE
+// 24.09.01 - CFW - Disable respawn name check
+//	if(!client.prefs.randomise[RANDOM_NAME]) // do they have random names enabled
+//		var/name = client.prefs.real_name
+//		if(GLOB.real_names_joined.Find(name)) // is there someone who spawned with the same name
+//			to_chat(usr, "<span class='warning'>Someone has spawned with this name already.")
+//			return FALSE
 
 	var/error = IsJobUnavailable(job, ship, check_playtime)
 	if(error != JOB_AVAILABLE)

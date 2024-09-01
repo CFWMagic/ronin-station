@@ -1,0 +1,20341 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ai" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"ak" = (
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning,
+/turf/open/floor/plasteel/white,
+/area/space)
+"al" = (
+/obj/structure/cable/white{
+	icon_state = "6-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-10"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"at" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"av" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	icon_state = "0-5"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"az" = (
+/turf/closed/indestructible/syndicate,
+/area/space)
+"aE" = (
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"aO" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"aS" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"aT" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/industrial/fire,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"aV" = (
+/obj/structure/particle_accelerator/particle_emitter/center,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"bd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/space)
+"bf" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"bh" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/railing/modern{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"bj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"bv" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"bG" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/obj/structure/cable/white{
+	icon_state = "4-9"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"bK" = (
+/obj/structure/lattice,
+/turf/closed/indestructible/opshuttle,
+/area/space)
+"bS" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/indestructible/airblock{
+	icon = 'icons/turf/floors/techfloor.dmi';
+	icon_state = "techfloor_grid";
+	name = "singularity scrubber"
+	},
+/area/space)
+"ca" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"cg" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"ch" = (
+/obj/structure/railing/modern{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"cj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"ct" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/industrial/fire,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"cw" = (
+/obj/effect/turf_decal/trimline/opaque/neutral/filled/warning{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"cD" = (
+/obj/structure/cable/white{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"cF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"cL" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"cS" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"cY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"dg" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"dq" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"dx" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"dD" = (
+/obj/structure/particle_accelerator/power_box,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"dL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/junction/flip,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"dN" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"dS" = (
+/obj/structure/table/reinforced,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"dW" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"et" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"eA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"eD" = (
+/turf/open/floor/engine/plasma,
+/area/space)
+"eF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"eG" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"eK" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"eL" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"eR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"eY" = (
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"fb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"fc" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"fd" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"fh" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"fj" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"fq" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"fx" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"fz" = (
+/obj/structure/cable/white{
+	icon_state = "4-9"
+	},
+/obj/structure/cable/white,
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"fC" = (
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"fG" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"fI" = (
+/obj/structure/railing/modern{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"fK" = (
+/turf/open/floor/plating,
+/area/space)
+"fS" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 9
+	},
+/obj/machinery/light/directional/west,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"fV" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/engis_unite{
+	pixel_y = 32
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/camera/emp_proof/motion{
+	name = "Engineering Power Control"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"gc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"gd" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/space)
+"gm" = (
+/obj/effect/landmark/outpost/elevator{
+	shaft = "3"
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"gr" = (
+/obj/structure/cable/white{
+	icon_state = "1-6"
+	},
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"gz" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"gB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"gF" = (
+/obj/effect/turf_decal/industrial/fire,
+/obj/effect/turf_decal/industrial/fire{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"gH" = (
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"gS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/space)
+"gX" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/atmosia_independence{
+	pixel_x = -32
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"gZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"hd" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line,
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"hj" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"hl" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"hr" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/machinery/power/smes/magical{
+	output_level = 200000
+	},
+/turf/open/floor/plating,
+/area/space)
+"hx" = (
+/turf/closed/indestructible/opsglass,
+/area/space)
+"hy" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 4;
+	layer = 2.37
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"hA" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/space)
+"hH" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/engineering/electrical,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"hT" = (
+/obj/structure/closet/radiation,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"hW" = (
+/obj/structure/cable/white{
+	icon_state = "0-6"
+	},
+/obj/machinery/power/emitter/welded/upgraded{
+	dir = 8;
+	name = "emitter"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"ie" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"io" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"it" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"iG" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"iH" = (
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"iJ" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 4
+	},
+/obj/machinery/vending/engineering,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"iN" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"iP" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 4
+	},
+/obj/machinery/vending/assist,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"iR" = (
+/obj/effect/turf_decal/atmos/nitrogen,
+/turf/open/floor/engine/n2,
+/area/space)
+"iX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/outpost{
+	assemblytype = /obj/structure/door_assembly/door_assembly_atmo;
+	icon = 'icons/obj/doors/airlocks/station/atmos.dmi';
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi';
+	req_access_txt = "102";
+	req_one_access_txt = "102"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"jh" = (
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"jl" = (
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"jp" = (
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"jq" = (
+/obj/machinery/pipedispenser,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"js" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"jC" = (
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"jE" = (
+/obj/effect/landmark/outpost/elevator{
+	shaft = "1"
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"jJ" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"jN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"jO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"jP" = (
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"jR" = (
+/obj/effect/turf_decal/atmos/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/space)
+"jS" = (
+/turf/closed/indestructible/reinforced,
+/area/space)
+"jT" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"kb" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"kp" = (
+/turf/open/floor/plating/asteroid/icerock/cracked,
+/area/space)
+"ks" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/grey/filled/warning,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"kC" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"kM" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line,
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/south,
+/obj/machinery/camera/emp_proof{
+	dir = 1;
+	name = "Atmospherics - East"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"kT" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/elevator_call_button{
+	dir = 8;
+	pixel_x = 25
+	},
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"lb" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"lc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"ld" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"lg" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"ll" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"ls" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/outpost/hallway/central)
+"lt" = (
+/obj/structure/lattice,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/space/basic,
+/area/space)
+"lx" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-9"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"lA" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"lH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "5-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"lJ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"lL" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"lN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"lP" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"ma" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/space)
+"md" = (
+/obj/structure/particle_accelerator/particle_emitter/right,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"mm" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 4;
+	layer = 2.37
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-9"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"ms" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"mw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plating,
+/area/space)
+"mF" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/binary/pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"mG" = (
+/obj/structure/cable/white{
+	icon_state = "4-10"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"mN" = (
+/obj/structure/cable/white{
+	icon_state = "0-5"
+	},
+/obj/machinery/power/emitter/welded/upgraded{
+	dir = 8;
+	name = "emitter"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"mS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-5"
+	},
+/turf/open/space/basic,
+/area/space)
+"mV" = (
+/turf/open/floor/engine/o2,
+/area/space)
+"nm" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"no" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"np" = (
+/turf/closed/indestructible/fakeglass,
+/area/space)
+"ns" = (
+/turf/open/floor/plasteel/white,
+/area/space)
+"nt" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"nw" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"nL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/grey/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"nM" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning,
+/turf/open/floor/plasteel/white,
+/area/space)
+"oa" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"oc" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"oe" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"om" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"os" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/obj/machinery/elevator_call_button{
+	pixel_y = 25
+	},
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "3"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"ov" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer4,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"oQ" = (
+/turf/closed/indestructible/rock/schist,
+/area/space)
+"oT" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/white,
+/turf/open/floor/plating,
+/area/space)
+"pb" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"pc" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"pd" = (
+/turf/open/floor/plasteel/tech,
+/area/space)
+"pk" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"pl" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"pu" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"pB" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"pC" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/white,
+/area/space)
+"pJ" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"pL" = (
+/turf/open/floor/engine/n2o,
+/area/space)
+"pU" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"pW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"pX" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"qa" = (
+/obj/effect/turf_decal/techfloor/corner,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 1
+	},
+/obj/structure/sign/poster/official/moth/piping{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"qb" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/plasma,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"qc" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"qi" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"qk" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"qn" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/fire,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"qp" = (
+/obj/structure/particle_accelerator/power_box{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"qu" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"qz" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/ntblue/filled/warning,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"qA" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-6"
+	},
+/turf/open/space/basic,
+/area/space)
+"qE" = (
+/obj/structure/particle_accelerator/end_cap{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"qJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/space)
+"qU" = (
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"qX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"re" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"ri" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"rl" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"rm" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"rw" = (
+/obj/effect/turf_decal/industrial/fire,
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"ry" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"rz" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"rH" = (
+/obj/machinery/computer/atmos_alert{
+	dir = 1
+	},
+/obj/structure/cable/yellow,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"rI" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/smes/magical{
+	output_level = 200000
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/space)
+"rL" = (
+/obj/effect/turf_decal/techfloor,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"rV" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"sc" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"sq" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/space)
+"sr" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 4;
+	layer = 2.37
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"st" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"su" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/outpost{
+	assemblytype = /obj/structure/door_assembly/door_assembly_mhatch;
+	icon = 'icons/obj/doors/airlocks/hatch/maintenance.dmi';
+	overlays_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi';
+	req_access_txt = "101";
+	name = "Maintenance Hatch"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"sC" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"sF" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"sH" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"sI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"sJ" = (
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"sV" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"sY" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"th" = (
+/obj/machinery/power/apc/auto_name/directional/north{
+	cell_type = /obj/item/stock_parts/cell/infinite
+	},
+/obj/structure/cable/white{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"ti" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"tw" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"tB" = (
+/turf/open/floor/engine/air,
+/area/space)
+"tF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"tH" = (
+/turf/closed/indestructible/syndicate,
+/area/outpost/hallway/central)
+"tM" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"tU" = (
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"tW" = (
+/obj/structure/particle_accelerator/particle_emitter/left{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"tY" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/outpost/glass{
+	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi';
+	req_access_txt = "102";
+	req_one_access_txt = "102";
+	name = "Substation Access";
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"tZ" = (
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 5
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"uh" = (
+/obj/structure/particle_accelerator/end_cap,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"up" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/turf/closed/indestructible/syndicate,
+/area/outpost/hallway/central)
+"us" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/plating,
+/area/space)
+"uz" = (
+/obj/structure/cable/white{
+	icon_state = "5-8"
+	},
+/obj/structure/cable/white,
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"uA" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"uD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"uM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-9"
+	},
+/turf/open/space/basic,
+/area/space)
+"uN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"uR" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"vb" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/flashlight/lamp{
+	pixel_x = -8;
+	pixel_y = 13
+	},
+/obj/item/storage/fancy/donut_box{
+	pixel_y = 5;
+	pixel_x = -2
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"vd" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"vf" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal,
+/obj/structure/catwalk/over/plated_catwalk/white,
+/turf/open/floor/plating,
+/area/space)
+"vh" = (
+/obj/structure/cable/white{
+	icon_state = "1-10"
+	},
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"vm" = (
+/turf/closed/indestructible/opshuttle,
+/area/space)
+"vq" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/white,
+/turf/open/floor/plating,
+/area/space)
+"vu" = (
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"vv" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"vw" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"vy" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/white,
+/area/space)
+"vB" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"vE" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"vH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plating/asteroid/icerock/cracked,
+/area/space)
+"vJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"vL" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line,
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"vN" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"vP" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"vS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/obj/machinery/elevator_call_button{
+	dir = 4;
+	pixel_x = -25
+	},
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "1"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"vV" = (
+/turf/open/space/basic,
+/area/space)
+"wh" = (
+/obj/effect/turf_decal/techfloor/corner,
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"wi" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"wp" = (
+/turf/closed/indestructible/syndicate,
+/turf/closed/indestructible/reinforced,
+/area/outpost/hallway/central)
+"wx" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/railing/modern/corner{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"wz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"xh" = (
+/obj/effect/turf_decal/techfloor/orange,
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"xk" = (
+/obj/effect/turf_decal/industrial/fire,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"xl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"xn" = (
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 5
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"xo" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/space)
+"xr" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"xu" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"xI" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"xJ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/elevator_call_button{
+	pixel_y = 25
+	},
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"xR" = (
+/obj/structure/closet/crate/secure/engineering,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"xS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/space)
+"xT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "4-10"
+	},
+/turf/open/space/basic,
+/area/space)
+"xY" = (
+/obj/machinery/vending/cigarette/beach,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"yl" = (
+/obj/effect/turf_decal/atmos/oxygen{
+	dir = 1
+	},
+/turf/open/floor/engine/o2,
+/area/space)
+"yr" = (
+/obj/effect/landmark/outpost/elevator{
+	shaft = "4"
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"yv" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-10"
+	},
+/turf/open/space/basic,
+/area/space)
+"yz" = (
+/turf/open/floor/engine/n2,
+/area/space)
+"yI" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/turf/open/floor/plating,
+/area/space)
+"yL" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"yM" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"yP" = (
+/obj/structure/particle_accelerator/fuel_chamber,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"yU" = (
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"zc" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/camera/emp_proof{
+	dir = 1;
+	name = "Atmospherics - West"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"zo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"zw" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"zE" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"zF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"zO" = (
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"zS" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"zU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"zY" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/closed/indestructible/fakeglass,
+/area/space)
+"Ac" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	icon_state = "0-9"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Af" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Ah" = (
+/obj/effect/turf_decal/atmos/plasma{
+	dir = 1
+	},
+/turf/open/floor/engine/plasma,
+/area/space)
+"Aj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Ar" = (
+/obj/effect/turf_decal/industrial/hatch/blue,
+/obj/structure/tank_dispenser,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Au" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Ay" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"AC" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"AD" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 6
+	},
+/obj/machinery/vending/engivend,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"AE" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/rad_collector/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"AG" = (
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"AK" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 8
+	},
+/turf/open/floor/engine/air,
+/area/space)
+"AM" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"AO" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/machinery/power/smes/magical{
+	output_level = 200000
+	},
+/turf/open/floor/plating,
+/area/space)
+"AS" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"AY" = (
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 5
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Bh" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/machinery/door/poddoor/ert/preopen{
+	dir = 4;
+	name = "substation shutters";
+	id = "substation_shutters"
+	},
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	name = "substation shutters";
+	id = "substation_shutters";
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space,
+/area/space)
+"Bj" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Bp" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/space)
+"Bv" = (
+/obj/structure/particle_accelerator/fuel_chamber{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Bw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"By" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Bz" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"BB" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-10"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-6"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"BC" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"BE" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"BP" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/smes/magical{
+	output_level = 200000
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/space)
+"BT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"BU" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"BZ" = (
+/turf/open/floor/engine/vacuum,
+/area/space)
+"Ce" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Cg" = (
+/obj/effect/turf_decal/trimline/opaque/neutral/filled/warning{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Ci" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Cn" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Ct" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Cv" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/machinery/rnd/production/protolathe/department/engineering,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Cw" = (
+/obj/structure/particle_accelerator/particle_emitter/left,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"CF" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"CP" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"CQ" = (
+/obj/machinery/vending/cola/random,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"CW" = (
+/obj/effect/turf_decal/atmos/air{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/engine/air,
+/area/space)
+"Dh" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Dn" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Dr" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/space/basic,
+/area/space)
+"Dx" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/obj/structure/cable/white{
+	icon_state = "5-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"DA" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/space/basic,
+/area/space)
+"DC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-5"
+	},
+/turf/open/space/basic,
+/area/space)
+"DJ" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"DL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/space)
+"DN" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"DP" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning,
+/turf/open/floor/plasteel/white,
+/area/space)
+"El" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Ep" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 9
+	},
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/clothing/suit/space/engineer,
+/obj/item/clothing/head/helmet/space/light/engineer,
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Eq" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Es" = (
+/obj/structure/cable/white{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/engineering,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"EB" = (
+/obj/effect/turf_decal/techfloor/corner,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"EH" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"EI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"EN" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"EP" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"ER" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"ES" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"EU" = (
+/obj/machinery/computer/apc_control{
+	dir = 1
+	},
+/obj/structure/cable/yellow,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"EV" = (
+/obj/machinery/particle_accelerator/control_box,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"EY" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Ff" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"FB" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"FF" = (
+/obj/machinery/light/small/broken/directional/north,
+/obj/structure/reagent_dispensers/beerkeg{
+	pixel_y = 3;
+	pixel_x = 4
+	},
+/obj/structure/reagent_dispensers/beerkeg{
+	pixel_y = -3;
+	pixel_x = -9
+	},
+/obj/item/reagent_containers/food/drinks/bottle/cognac{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/toy/plush/goatplushie{
+	pixel_y = 12;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/greenglow{
+	pixel_y = -6
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/space)
+"FH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/space)
+"FL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "6-8"
+	},
+/turf/open/space/basic,
+/area/space)
+"FO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"FQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"FT" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"FU" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"FZ" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 4
+	},
+/turf/open/floor/engine/n2o,
+/area/space)
+"Gd" = (
+/obj/structure/lattice,
+/turf/closed/indestructible/syndicate,
+/area/space)
+"Ge" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Gm" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 9
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Gr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plating,
+/area/space)
+"Gt" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Gz" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"GB" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"GD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"GJ" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"GN" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "2"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/outpost/hallway/central)
+"GR" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"GT" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/corner,
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Hb" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Hi" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Hk" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Hn" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"HD" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/space)
+"HM" = (
+/obj/structure/cable/white{
+	icon_state = "0-9"
+	},
+/obj/machinery/computer/monitor/secret{
+	color = "#FFFFFF";
+	light_color = "#FFFFFF";
+	name = "engineering singularity input monitoring console";
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"HX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Ia" = (
+/turf/open/floor/engine/co2,
+/area/space)
+"Ii" = (
+/obj/structure/railing/modern,
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Ij" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plating,
+/area/space)
+"IF" = (
+/obj/machinery/field/generator/anchored,
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"IH" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/structure/railing/modern/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"IK" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 4;
+	layer = 2.37
+	},
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"IS" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"IU" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Jm" = (
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"Jr" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Jw" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"JE" = (
+/obj/effect/turf_decal/atmos/air,
+/turf/open/floor/engine/n2o,
+/area/space)
+"JI" = (
+/obj/machinery/vending/cigarette/syndicate,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"JM" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"JT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"JV" = (
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"JY" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Kb" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Kk" = (
+/obj/machinery/the_singularitygen{
+	anchored = 1
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"KD" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"KF" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "6-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"KN" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"KO" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"KT" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Lc" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Le" = (
+/obj/effect/turf_decal/techfloor/orange/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Lk" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"Lp" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Lv" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"LB" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"LJ" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"LK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"LP" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/ntblue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"LU" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"LW" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning,
+/obj/effect/turf_decal/trimline/opaque/ntblue/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Ma" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Mc" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Me" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"Mf" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal,
+/obj/structure/catwalk/over/plated_catwalk/white,
+/turf/open/floor/plating,
+/area/space)
+"Mo" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Mp" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/space)
+"Mq" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Mt" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/structure/disposalpipe/junction/flip{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Mv" = (
+/obj/structure/railing/modern{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/blue/filled/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Mw" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/space)
+"Mx" = (
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/white,
+/area/space)
+"Mz" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"MF" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"MG" = (
+/obj/machinery/computer/monitor/secret{
+	dir = 1
+	},
+/obj/structure/cable/yellow,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"MR" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/space)
+"MV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"MX" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer2,
+/turf/open/floor/plating,
+/area/space)
+"MY" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Np" = (
+/obj/structure/lattice,
+/turf/closed/indestructible/rock/schist,
+/area/space)
+"Nt" = (
+/obj/effect/turf_decal/techfloor/orange,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"NB" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 5
+	},
+/obj/structure/closet/firecloset/wall/directional/north,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"NM" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"NO" = (
+/obj/structure/railing/modern,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"NR" = (
+/obj/structure/cable/white{
+	icon_state = "2-5"
+	},
+/obj/structure/railing/modern{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"NU" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"NW" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/closed/indestructible/fakeglass,
+/area/space)
+"NX" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 4;
+	layer = 2.37
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Of" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-5"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Op" = (
+/obj/effect/turf_decal/techfloor,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"OA" = (
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"OG" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/number/three,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"ON" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/chair,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"OO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"OP" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible/airblock{
+	icon = 'icons/turf/floors/techfloor.dmi';
+	icon_state = "techfloor_grid";
+	name = "singularity scrubber"
+	},
+/area/space)
+"OV" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"OZ" = (
+/obj/effect/turf_decal/industrial/fire,
+/obj/effect/turf_decal/industrial/fire{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Pb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"Pk" = (
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "1"
+	},
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/outpost/hallway/central)
+"Pp" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"PD" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/reagent_dispensers,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"PF" = (
+/obj/structure/cable/white{
+	icon_state = "0-10"
+	},
+/obj/machinery/power/emitter/welded/upgraded{
+	dir = 4;
+	name = "emitter"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"PG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"PN" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Qa" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"Qv" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/space/basic,
+/area/space)
+"Qy" = (
+/turf/open/floor/plasteel/tech,
+/area/space,
+/area/space)
+"QC" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "3"
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/outpost/hallway/central)
+"QF" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"QP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/door/airlock/outpost{
+	assemblytype = /obj/structure/door_assembly/door_assembly_mhatch;
+	icon = 'icons/obj/doors/airlocks/hatch/maintenance.dmi';
+	overlays_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi';
+	req_access_txt = "101";
+	name = "Maintenance Hatch"
+	},
+/turf/open/floor/plating,
+/area/space)
+"QR" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"QU" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-5"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-9"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"QV" = (
+/obj/structure/railing/modern/corner{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"QY" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Rb" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Rc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Re" = (
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "4"
+	},
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/outpost/hallway/central)
+"Rj" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/engineering,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Rq" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Rr" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/turf_decal/number/one,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Ru" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Rx" = (
+/obj/machinery/suit_storage_unit/atmos{
+	name = "atmos suit storage";
+	req_access_txt = "102";
+	req_one_access_txt = "102"
+	},
+/obj/effect/turf_decal/industrial/hatch/orange,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"RC" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"RE" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/warning,
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"RL" = (
+/obj/effect/turf_decal/atmos/plasma,
+/turf/open/floor/engine/plasma,
+/area/space)
+"RR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"RZ" = (
+/obj/effect/turf_decal/trimline/opaque/neutral/filled/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Se" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-5"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Sf" = (
+/turf/closed/indestructible/syndicate,
+/turf/closed/indestructible/reinforced,
+/turf/closed/indestructible/reinforced,
+/turf/closed/indestructible/reinforced,
+/area/outpost/hallway/central)
+"Sh" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor,
+/obj/structure/railing/modern{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Sm" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-9"
+	},
+/obj/machinery/computer/rdconsole/production{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Sn" = (
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning,
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Sw" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Sy" = (
+/obj/structure/railing/modern,
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"SC" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/grey/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"SK" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"SO" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"SU" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"SY" = (
+/obj/effect/landmark/outpost/elevator{
+	shaft = "2"
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"SZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/space)
+"Tb" = (
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Tc" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Td" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Tm" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Tx" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"TB" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"TC" = (
+/obj/structure/rack,
+/obj/item/storage/belt/utility/full/engi{
+	pixel_y = 4
+	},
+/obj/item/geiger_counter{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"TE" = (
+/obj/effect/turf_decal/atmos/nitrous_oxide,
+/turf/open/floor/engine/n2o,
+/area/space)
+"TR" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"TT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+"TW" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/outpost/glass{
+	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi';
+	req_access_txt = "102";
+	req_one_access_txt = "102";
+	name = "Substation Access";
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"TY" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Uc" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Ue" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Ul" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/machinery/suit_storage_unit/engine{
+	req_access_txt = "102";
+	req_one_access_txt = "102";
+	name = "engie suit storage"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Um" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Up" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Uu" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Uz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/turf_decal/number/four,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"UE" = (
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"UJ" = (
+/obj/structure/lattice,
+/turf/closed/indestructible/opsglass,
+/area/space)
+"UX" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Vb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/closed/indestructible/reinforced,
+/area/space)
+"Vc" = (
+/obj/effect/turf_decal/atmos/oxygen,
+/turf/open/floor/engine/o2,
+/area/space)
+"Vo" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Vr" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/number/two,
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Vt" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"VA" = (
+/turf/closed/indestructible/reinforced,
+/area/outpost/hallway/central)
+"VH" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"VM" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"VO" = (
+/obj/structure/cable/white{
+	icon_state = "0-9"
+	},
+/obj/machinery/power/emitter/welded/upgraded{
+	dir = 4;
+	name = "emitter"
+	},
+/turf/open/indestructible{
+	icon_state = "reinforced_hull";
+	name = "singularity anchor"
+	},
+/area/space)
+"VP" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner,
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"VR" = (
+/obj/structure/cable/yellow{
+	icon_state = "5-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/computer/monitor/secret{
+	dir = 1;
+	color = "#80FF80";
+	name = "engineering power monitoring console"
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"VT" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"VW" = (
+/obj/structure/railing/modern,
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Wd" = (
+/turf/closed/mineral/random/snow,
+/area/space)
+"Wh" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Wp" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 5
+	},
+/obj/machinery/vending/syndichem,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Wu" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white{
+	icon_state = "2-9"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/space/basic,
+/area/space)
+"Wx" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4,
+/turf/open/floor/plating/asteroid/icerock/cracked,
+/area/space)
+"WO" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/lightgrey/line,
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"WU" = (
+/obj/structure/particle_accelerator/particle_emitter/center{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"WZ" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 1
+	},
+/turf/open/floor/engine/n2o,
+/area/space)
+"Xb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Xf" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Xm" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Xt" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Xv" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/machinery/door/poddoor/ert/preopen{
+	dir = 4;
+	name = "substation shutters";
+	id = "substation_shutters"
+	},
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	name = "substation shutters";
+	id = "substation_shutters";
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Xw" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/space)
+"XB" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/clothing/suit/space/engineer,
+/obj/item/clothing/head/helmet/space/light/engineer,
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"XD" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/circuitboard/machine/shuttle/engine/electric{
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/obj/item/circuitboard/machine/shuttle/engine/electric{
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"XG" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/closed/indestructible/reinforced,
+/area/space)
+"XQ" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"XS" = (
+/obj/structure/table/reinforced{
+	color = "#c1b6a5"
+	},
+/obj/machinery/jukebox/boombox{
+	pixel_y = 5
+	},
+/obj/item/phone{
+	pixel_x = -11;
+	pixel_y = 3
+	},
+/obj/item/folder/yellow{
+	pixel_x = 7;
+	pixel_y = -3
+	},
+/obj/item/forcefield_projector{
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"XV" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/space)
+"XY" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/space)
+"Yb" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Yc" = (
+/obj/effect/turf_decal/trimline/opaque/orange/filled/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Yf" = (
+/obj/structure/railing/modern,
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/white/filled/warning{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"Yh" = (
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Yi" = (
+/obj/structure/lattice,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"Ym" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"Yq" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/space)
+"Yx" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techfloor_grid";
+	name = "singularity airlock";
+	icon = 'icons/turf/floors/techfloor.dmi'
+	},
+/area/space)
+"YB" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"YH" = (
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/neutral/corner{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"YJ" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/smes/magical{
+	output_level = 200000
+	},
+/turf/open/floor/plating,
+/area/space)
+"YL" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2,
+/turf/open/floor/engine/n2o,
+/area/space)
+"YM" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"Za" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"Ze" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Zh" = (
+/obj/structure/particle_accelerator/particle_emitter/right{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"Zk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/space)
+"Zz" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/outpost/hallway/central)
+"ZA" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "techmaint";
+	icon = 'icons/turf/floors/techfloor.dmi';
+	name = "singularity lab"
+	},
+/area/space)
+"ZC" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"ZI" = (
+/obj/structure/closet/firecloset/full{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/obj/effect/turf_decal/industrial/hatch/red,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"ZP" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/space)
+"ZW" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/space)
+
+(1,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(2,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(3,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+vV
+vV
+Wd
+Wd
+Wd
+vV
+vV
+vV
+Wd
+Wd
+vV
+FB
+FB
+vV
+vV
+Wd
+vV
+FB
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(4,1,1) = {"
+vV
+vV
+FB
+vV
+vV
+Wd
+vV
+FB
+FB
+vV
+vV
+vV
+vV
+FB
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+FB
+vV
+FB
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(5,1,1) = {"
+vV
+vV
+vV
+vV
+FB
+vV
+oQ
+Gd
+Np
+az
+FB
+oQ
+FB
+Np
+oQ
+hx
+oQ
+az
+vV
+vV
+oQ
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+vV
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(6,1,1) = {"
+vV
+vV
+Wd
+FB
+FB
+oQ
+vV
+oQ
+vV
+oQ
+az
+vm
+oQ
+vm
+oQ
+FB
+oQ
+oQ
+hx
+oQ
+oQ
+az
+az
+hx
+az
+az
+az
+az
+hx
+hx
+az
+az
+az
+az
+hx
+az
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(7,1,1) = {"
+vV
+Wd
+vV
+vV
+Np
+FB
+FB
+yU
+Lv
+it
+bK
+yU
+Lv
+it
+Np
+yU
+Lv
+it
+FB
+FB
+FB
+hx
+no
+Jw
+OZ
+hx
+Pp
+eY
+eY
+eY
+eY
+eY
+hx
+no
+Jw
+OZ
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(8,1,1) = {"
+vV
+vV
+vV
+oQ
+FB
+FH
+Qv
+DL
+FB
+mS
+Qv
+Bp
+FB
+bd
+DC
+qA
+FB
+SZ
+Qv
+gS
+rw
+bS
+Tx
+pJ
+qn
+bS
+ZA
+uR
+eY
+eY
+eY
+eY
+bS
+Tx
+pJ
+qn
+bS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(9,1,1) = {"
+vV
+vV
+FB
+vm
+Np
+Dr
+vV
+vV
+PF
+hx
+vV
+dW
+cD
+vh
+az
+vV
+VO
+vV
+vV
+Dr
+xk
+hx
+By
+GJ
+gF
+hx
+Pp
+eY
+eY
+eY
+eY
+eY
+hx
+By
+GJ
+gF
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(10,1,1) = {"
+vV
+vV
+FB
+oQ
+yU
+DL
+vV
+vV
+FB
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+FB
+vV
+vV
+SZ
+ct
+az
+hx
+hx
+hx
+az
+az
+az
+eY
+eY
+az
+az
+az
+hx
+hx
+hx
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(11,1,1) = {"
+vV
+Wd
+vV
+oQ
+Qa
+FB
+Yi
+Yi
+IF
+FB
+Yi
+FB
+Jm
+Yi
+FB
+Yi
+IF
+FB
+Yi
+FB
+rL
+az
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(12,1,1) = {"
+vV
+Wd
+vV
+hx
+jl
+gS
+vV
+vV
+FB
+FB
+vV
+vV
+Yi
+vV
+vV
+vV
+Yi
+vV
+vV
+FH
+aT
+az
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(13,1,1) = {"
+vV
+vV
+vV
+vm
+Np
+FL
+oQ
+oQ
+Yi
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+Yi
+vV
+vV
+Dr
+FB
+hx
+nw
+Mz
+Mz
+Mz
+Mz
+Ze
+eY
+eY
+nw
+Mz
+Mz
+Mz
+Mz
+Ze
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(14,1,1) = {"
+vV
+vV
+FB
+oQ
+yU
+HD
+fz
+vV
+Yi
+vV
+vV
+vV
+Yi
+vV
+vV
+vV
+FB
+vV
+vV
+SZ
+it
+ri
+EH
+Zh
+eY
+eY
+eY
+fC
+eY
+eY
+EH
+eY
+EV
+eY
+md
+fC
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(15,1,1) = {"
+vV
+vV
+vV
+hx
+FU
+FB
+AE
+FB
+Jm
+FB
+FB
+FB
+Kk
+Yi
+Yi
+FB
+Jm
+FB
+vV
+Lk
+Qa
+ri
+EH
+WU
+qp
+Bv
+qE
+fC
+eY
+eY
+EH
+uh
+yP
+dD
+aV
+fC
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(16,1,1) = {"
+vV
+vV
+FB
+oQ
+jl
+hA
+uz
+vV
+FB
+vV
+vV
+vV
+FB
+vV
+vV
+FB
+FB
+vV
+vV
+FH
+re
+ri
+EH
+tW
+eY
+EV
+eY
+fC
+eY
+eY
+EH
+eY
+eY
+eY
+Cw
+fC
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(17,1,1) = {"
+vV
+vV
+FB
+vm
+Np
+xT
+vV
+vV
+Yi
+vV
+vV
+vV
+Yi
+vV
+FB
+vV
+Yi
+vV
+vV
+Dr
+FB
+hx
+Xf
+Wh
+Wh
+Wh
+Wh
+zS
+eY
+eY
+Xf
+Wh
+Wh
+Wh
+Wh
+zS
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(18,1,1) = {"
+vV
+vV
+vV
+vm
+yU
+DL
+vV
+vV
+FB
+vV
+vV
+vV
+Yi
+vV
+vV
+vV
+FB
+vV
+vV
+SZ
+it
+az
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(19,1,1) = {"
+vV
+vV
+oQ
+oQ
+Qa
+FB
+FB
+FB
+IF
+Yi
+FB
+FB
+Jm
+FB
+Yi
+FB
+IF
+FB
+FB
+FB
+Qa
+az
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+eY
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(20,1,1) = {"
+vV
+vV
+vV
+oQ
+jl
+gS
+vV
+vV
+Yi
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+FB
+oQ
+vV
+FH
+re
+az
+az
+az
+az
+hx
+hx
+az
+vV
+vV
+az
+az
+hx
+hx
+az
+az
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(21,1,1) = {"
+vV
+vV
+vV
+oQ
+bK
+Dr
+vV
+vV
+hW
+vV
+az
+jJ
+cD
+gr
+vV
+vV
+mN
+vV
+az
+Dr
+FB
+Yi
+FB
+az
+oQ
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(22,1,1) = {"
+vV
+vV
+vV
+vV
+UJ
+SZ
+Qv
+gS
+FB
+uM
+Qv
+Bp
+vV
+bd
+Wu
+yv
+FB
+FH
+Qv
+DL
+FB
+Yi
+oQ
+oQ
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(23,1,1) = {"
+vV
+vV
+vV
+FB
+bK
+UJ
+bK
+jl
+Lv
+re
+FB
+jl
+Lv
+re
+FB
+jl
+Lv
+sq
+FB
+KD
+Np
+oQ
+oQ
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(24,1,1) = {"
+vV
+vV
+FB
+FB
+vV
+vV
+oQ
+vm
+oQ
+oQ
+vm
+vm
+vm
+oQ
+oQ
+vV
+oQ
+Yi
+Wd
+vV
+oQ
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(25,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+oQ
+oQ
+oQ
+oQ
+az
+vm
+vV
+KD
+FB
+oQ
+hx
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(26,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+oQ
+vm
+hx
+vm
+az
+oQ
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+fK
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+FB
+fK
+FB
+vV
+vV
+vV
+fK
+Wd
+Wd
+fK
+fK
+FB
+vV
+vV
+jS
+jS
+DP
+et
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(27,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+FB
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+FB
+FB
+FB
+FB
+vV
+vV
+vV
+FB
+FB
+vV
+vV
+Wd
+fK
+FB
+vV
+FB
+FB
+vV
+FB
+fK
+FB
+vV
+vV
+vV
+vV
+jS
+ns
+bj
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(28,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+vV
+Wd
+vV
+vV
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+Wd
+vV
+jS
+jS
+ri
+ri
+ri
+jS
+jS
+ri
+ri
+jS
+jS
+ri
+ri
+jS
+jS
+jS
+Wd
+FB
+vV
+FB
+vV
+FB
+vV
+ri
+ns
+LK
+ri
+vV
+vV
+Wd
+Wd
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(29,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+vV
+FB
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+FB
+jS
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+jS
+Wd
+Wd
+vV
+vV
+vV
+FB
+vV
+ri
+ns
+LK
+ri
+vV
+vV
+vV
+Wd
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(30,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+ns
+ns
+vy
+vy
+vy
+vy
+vy
+vy
+nM
+Bj
+vN
+vy
+oc
+ns
+jS
+Wd
+ri
+ri
+ri
+ri
+ri
+fK
+jS
+ns
+LK
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(31,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+ri
+ns
+ns
+jS
+jS
+jS
+jS
+jS
+jS
+Xv
+gB
+Xv
+jS
+cg
+ns
+jS
+jS
+ri
+ns
+ns
+ns
+ri
+jS
+jS
+ns
+LK
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(32,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fI
+fI
+NR
+Sh
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+ri
+ns
+ns
+jS
+lN
+Me
+Me
+js
+uD
+TT
+fj
+xR
+jS
+cg
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+LK
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(33,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+dS
+mG
+Se
+Gz
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+fK
+jS
+ns
+ns
+jS
+vf
+hr
+fd
+Dx
+AO
+vq
+lH
+rH
+jS
+Eq
+vy
+vy
+vy
+UX
+Ym
+Ym
+Ym
+UX
+Ym
+Ym
+Ym
+SO
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(34,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+dS
+al
+VR
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+FB
+jS
+ns
+ns
+jS
+th
+tw
+BB
+vB
+QU
+ll
+jO
+EU
+jS
+ns
+ns
+ns
+ak
+eG
+jS
+jS
+jS
+eG
+vu
+ns
+ns
+ns
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(35,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+dS
+KF
+HM
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+fK
+jS
+ns
+ns
+jS
+Mf
+YJ
+dq
+bG
+AO
+oT
+YB
+MG
+jS
+jS
+ri
+ri
+jS
+vd
+jS
+Ar
+jS
+vd
+jS
+ri
+ri
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(36,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Cv
+Ff
+Sm
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+ri
+ns
+ns
+jS
+PG
+Pb
+Pb
+ZW
+BE
+zE
+fj
+jp
+jS
+EB
+dg
+dg
+sr
+oa
+qz
+LP
+LW
+oa
+wh
+dg
+dg
+NX
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(37,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+az
+hx
+az
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+ri
+ns
+ns
+jS
+jS
+jS
+jS
+jS
+jS
+Xv
+gB
+Bh
+jS
+UE
+Rx
+Rx
+xr
+EP
+gZ
+fG
+gZ
+qk
+UE
+Ul
+Ul
+xr
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(38,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+az
+hx
+az
+az
+hx
+hx
+az
+az
+vV
+vV
+vV
+vV
+ri
+ns
+ns
+ns
+ns
+ns
+ns
+jS
+hH
+fx
+LB
+CP
+jS
+Uc
+st
+st
+Af
+Bz
+oe
+Ce
+RC
+ZC
+Uc
+st
+st
+Af
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(39,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+ch
+Tb
+NO
+RZ
+tU
+wi
+rV
+az
+vV
+vV
+vV
+fK
+jS
+ns
+ns
+ns
+ns
+ns
+ns
+jS
+Rj
+pd
+cj
+pd
+jS
+jS
+ri
+ri
+XG
+XG
+jS
+VT
+jS
+jS
+XG
+ri
+ri
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(40,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+aE
+BT
+Sy
+RZ
+RE
+av
+sc
+hx
+vV
+vV
+FB
+FB
+jS
+jS
+ri
+jS
+jS
+ns
+ns
+jS
+sY
+pd
+cj
+Qy
+jS
+Gm
+QR
+QR
+QR
+QR
+Au
+ld
+Kb
+QR
+QR
+QR
+QR
+hj
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+EB
+dg
+NX
+vV
+jp
+dg
+NX
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(41,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Mv
+aS
+aO
+ry
+sV
+EN
+cS
+hx
+vV
+vV
+Wd
+FB
+FB
+vV
+vV
+Wd
+jS
+ns
+Ru
+jS
+Mq
+pd
+cj
+yL
+Mo
+DN
+Xm
+pd
+pd
+pd
+pd
+OO
+cL
+FO
+pd
+pd
+pd
+Nt
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+UE
+Rx
+xr
+vV
+UE
+Ul
+xr
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(42,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+QV
+Xt
+VW
+RZ
+RE
+Ac
+vP
+hx
+vV
+vV
+Wd
+FB
+fK
+vV
+vV
+vV
+ri
+ns
+pC
+eR
+eA
+Sw
+ov
+Op
+eR
+lA
+Ge
+pd
+pd
+pd
+pd
+cj
+pd
+pd
+pd
+pd
+pd
+Nt
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+UE
+Rx
+xr
+vV
+UE
+Ul
+xr
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(43,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Ct
+kb
+ER
+JY
+KN
+EN
+YH
+az
+vV
+vV
+Mo
+Mo
+jS
+Mo
+Mo
+ri
+jS
+ns
+Td
+jS
+om
+RR
+TR
+Tc
+Mo
+ie
+cj
+pd
+pd
+pd
+pd
+cj
+pd
+pd
+pd
+pd
+pd
+Nt
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Uc
+st
+Af
+vV
+Uc
+st
+Af
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(44,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+wx
+pX
+Ii
+RZ
+RE
+av
+kC
+az
+vV
+vV
+pd
+JV
+KT
+pu
+pd
+pd
+ri
+Uu
+ns
+jS
+sY
+sY
+sY
+NU
+jS
+MF
+zo
+ES
+ES
+SK
+ES
+vJ
+pd
+pd
+pd
+pd
+pd
+Nt
+ri
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(45,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bh
+pX
+Sy
+Cg
+VP
+EN
+lL
+az
+vV
+vV
+pd
+JV
+KT
+pu
+pd
+JV
+eR
+GR
+ns
+jS
+sY
+sY
+sY
+NU
+jS
+Yh
+pd
+pd
+OV
+pU
+Vt
+Vt
+Vt
+Vt
+Vt
+Rb
+pd
+Nt
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+EB
+dg
+dg
+NX
+vV
+EB
+dg
+dg
+NX
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(46,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+fK
+fK
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bh
+EY
+aO
+sH
+MY
+Rq
+iG
+hx
+vV
+vV
+pd
+JV
+KT
+pu
+pd
+pd
+Mo
+IS
+ns
+jS
+jS
+jS
+jS
+jS
+jS
+Wp
+iP
+lg
+ks
+nL
+SC
+lg
+lg
+lg
+lg
+lg
+iJ
+AD
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+UE
+Rx
+Rx
+xr
+vV
+UE
+Ul
+Ul
+xr
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(47,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+DA
+vV
+jS
+jS
+np
+jS
+jS
+vV
+fK
+Wd
+Wd
+vV
+vV
+vV
+FB
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bh
+pX
+Ii
+cw
+Dn
+EN
+lL
+hx
+vV
+vV
+Mo
+Mo
+jS
+Mo
+Mo
+Mo
+jS
+ns
+ns
+ri
+jp
+jp
+jp
+jp
+jS
+jS
+jS
+jS
+jS
+VT
+jS
+jS
+jS
+ri
+ri
+jS
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+Uc
+st
+st
+Af
+vV
+Uc
+st
+st
+Af
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(48,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+Wd
+FB
+fK
+vV
+vV
+DA
+vV
+jS
+yz
+yz
+yz
+jS
+vV
+fK
+FB
+Wd
+DA
+fK
+fK
+fK
+vV
+FB
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+IH
+xu
+tM
+RZ
+RE
+Ac
+iG
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+ns
+Mx
+eR
+xr
+jp
+jp
+jp
+jp
+jp
+jp
+jS
+hT
+Bw
+Yb
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(49,1,1) = {"
+vV
+vV
+vV
+FB
+Wd
+FB
+fK
+vV
+vV
+fK
+vV
+vV
+np
+yz
+iR
+yz
+np
+fK
+fK
+FB
+FB
+FB
+fK
+vV
+vV
+vV
+vV
+vV
+DA
+vV
+vV
+vV
+vV
+vV
+vV
+AS
+qc
+Yf
+RZ
+TB
+EN
+lL
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+jS
+ri
+ri
+NM
+fq
+fq
+YM
+fq
+fq
+ZP
+jS
+OV
+pW
+Rb
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(50,1,1) = {"
+vV
+vV
+vV
+vV
+FB
+FB
+vV
+vV
+vV
+jS
+np
+np
+jS
+yz
+yz
+yz
+jS
+jS
+jS
+FB
+fK
+fK
+FB
+vV
+vV
+fK
+vV
+DA
+DA
+vV
+vV
+vV
+vV
+vV
+vV
+bh
+pX
+NO
+lb
+RE
+av
+iG
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+xI
+jS
+Xv
+tY
+Xv
+jS
+xI
+jS
+ZI
+yM
+pb
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(51,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FB
+FB
+FB
+fK
+jS
+jS
+np
+jS
+jS
+fK
+FB
+XQ
+DA
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+Wd
+Wd
+fK
+vV
+vV
+vV
+vV
+bh
+pX
+Sy
+cw
+eL
+EN
+lL
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+xI
+jS
+nt
+Jr
+EI
+jS
+xI
+jS
+VA
+ls
+VA
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(52,1,1) = {"
+vV
+vV
+vV
+vV
+jS
+jS
+np
+jS
+jS
+Yq
+mw
+mw
+mw
+mw
+mw
+mw
+mw
+mw
+mw
+yI
+jS
+jS
+np
+jS
+jS
+vV
+vV
+Wd
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+hx
+OP
+hx
+az
+RE
+lx
+Ci
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+jS
+jS
+jS
+xI
+jS
+io
+Es
+eF
+jS
+AC
+su
+SU
+dx
+El
+KT
+xr
+jp
+jp
+jp
+jp
+jp
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(53,1,1) = {"
+vV
+vV
+vV
+fK
+jS
+mV
+mV
+mV
+jS
+zU
+FB
+FB
+ma
+us
+MX
+us
+XY
+FB
+FB
+zU
+jS
+pL
+pL
+pL
+jS
+vV
+vV
+vV
+vV
+FB
+FB
+vV
+vV
+vV
+vV
+rz
+Ma
+Yc
+az
+TB
+eK
+lL
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+PN
+fq
+Hk
+Tm
+jS
+Ue
+Lp
+tF
+jS
+jp
+jS
+TY
+lc
+hl
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(54,1,1) = {"
+vV
+vV
+vV
+fK
+np
+mV
+Vc
+mV
+np
+zU
+FB
+ma
+fb
+np
+pl
+np
+xS
+XY
+lt
+zU
+np
+pL
+TE
+pL
+np
+fK
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+FQ
+Hn
+Yx
+az
+RE
+zw
+iG
+hx
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+xI
+VA
+VA
+VA
+VA
+Xv
+TW
+Xv
+VA
+VA
+VA
+TY
+Mt
+Up
+Aj
+Aj
+Aj
+Aj
+Aj
+LU
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(55,1,1) = {"
+vV
+vV
+vV
+fK
+jS
+mV
+mV
+mV
+jS
+zU
+ma
+fb
+jS
+jS
+zY
+jS
+jS
+xS
+XY
+zU
+jS
+pL
+pL
+pL
+jS
+fK
+jS
+Mo
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Sn
+sF
+Mc
+az
+jP
+ca
+gz
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+xI
+VA
+MV
+Aj
+Aj
+Aj
+BU
+Aj
+Aj
+Aj
+Aj
+Rc
+zO
+Lc
+Lc
+Lc
+Lc
+Lc
+fc
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(56,1,1) = {"
+vV
+vV
+vV
+vV
+jS
+jS
+np
+jS
+jS
+zU
+pl
+np
+jS
+tB
+AK
+tB
+jS
+np
+pl
+zU
+jS
+jS
+np
+jS
+jS
+fK
+np
+pd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+hx
+OP
+hx
+az
+hx
+hx
+az
+az
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+xI
+VA
+vv
+OA
+Lc
+Lc
+rl
+Lc
+Lc
+Lc
+Lc
+Lc
+GB
+tH
+tH
+tH
+tH
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(57,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+FB
+fK
+FB
+fK
+zU
+MX
+us
+NW
+WZ
+JE
+YL
+NW
+us
+MX
+rm
+mw
+Gr
+Gr
+mw
+Gr
+xo
+GD
+fh
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+tH
+tH
+tH
+tH
+tH
+jC
+jC
+jC
+tH
+jh
+jh
+jE
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(58,1,1) = {"
+vV
+vV
+vV
+vV
+jS
+jS
+np
+jS
+jS
+zU
+pl
+np
+jS
+pL
+FZ
+pL
+jS
+np
+pl
+zU
+jS
+jS
+np
+jS
+jS
+vE
+np
+pd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+jh
+jh
+SY
+tH
+lJ
+jC
+uA
+jC
+tH
+jh
+jh
+jh
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(59,1,1) = {"
+vV
+vV
+vV
+vV
+jS
+Ia
+Ia
+Ia
+jS
+zU
+xS
+XY
+jS
+jS
+zY
+jS
+jS
+ma
+fb
+zU
+jS
+BZ
+BZ
+BZ
+jS
+vE
+jS
+Mo
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+jh
+jh
+jh
+GN
+Vr
+jC
+sI
+jC
+tH
+jh
+jh
+jh
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(60,1,1) = {"
+vV
+vV
+vV
+vV
+np
+Ia
+jR
+Ia
+np
+zU
+FB
+xS
+XY
+np
+pl
+np
+ma
+fb
+FB
+zU
+np
+BZ
+BZ
+BZ
+np
+vE
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+jh
+jh
+jh
+tH
+xJ
+jC
+sI
+jC
+tH
+tH
+Pk
+tH
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(61,1,1) = {"
+vV
+vV
+vV
+vV
+jS
+Ia
+Ia
+Ia
+jS
+zU
+FB
+FB
+xS
+us
+MX
+us
+fb
+FB
+FB
+zU
+jS
+BZ
+BZ
+BZ
+jS
+lt
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+tH
+tH
+tH
+tH
+up
+iH
+sI
+jC
+tH
+vS
+Rr
+KO
+VA
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(62,1,1) = {"
+vV
+vV
+vV
+vV
+jS
+jS
+np
+jS
+jS
+gd
+mw
+mw
+mw
+mw
+mw
+mw
+mw
+mw
+mw
+Ay
+jS
+jS
+np
+jS
+jS
+lt
+lt
+lt
+lt
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+gH
+CQ
+gH
+tH
+jC
+jC
+sI
+jC
+jC
+jC
+jC
+jC
+jC
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(63,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+FB
+vV
+vV
+FB
+fK
+fK
+fK
+jS
+jS
+np
+jS
+jS
+fK
+fK
+FB
+fK
+fK
+FB
+vV
+vV
+DA
+FB
+Wd
+lt
+Wd
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+jC
+jC
+jC
+jC
+jC
+jC
+jC
+sI
+jC
+jC
+jC
+jC
+jC
+jC
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(64,1,1) = {"
+vV
+vV
+vV
+vV
+fK
+FB
+FB
+fK
+FB
+jS
+np
+np
+jS
+eD
+eD
+eD
+jS
+jS
+jS
+np
+np
+np
+jS
+FB
+DA
+vV
+Wd
+Wd
+lt
+DA
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+Zz
+bv
+bf
+dL
+jT
+FT
+FT
+FT
+JT
+ai
+FT
+FT
+FT
+zF
+cF
+cF
+LJ
+Za
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(65,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+fK
+vV
+vV
+np
+eD
+RL
+eD
+np
+fK
+fK
+FB
+FB
+FB
+fK
+vV
+FB
+vV
+Wd
+fK
+lt
+FB
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+Cn
+JI
+xY
+tH
+jC
+jC
+Xb
+jC
+jC
+jC
+jC
+jC
+jC
+QF
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(66,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+FB
+vV
+FB
+jS
+eD
+eD
+eD
+jS
+vV
+fK
+vV
+DA
+FB
+fK
+fK
+fK
+vV
+DA
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+tH
+tH
+tH
+tH
+up
+qU
+Xb
+jC
+tH
+wz
+Uz
+kT
+VA
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(67,1,1) = {"
+vV
+vV
+vV
+vV
+fK
+vV
+FB
+FB
+FB
+fK
+FB
+fK
+jS
+jS
+np
+jS
+jS
+DA
+fK
+FB
+fK
+vV
+DA
+vV
+vV
+fK
+fK
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+jh
+jh
+gm
+tH
+ON
+jC
+Xb
+jC
+tH
+tH
+Re
+tH
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(68,1,1) = {"
+vV
+vV
+vV
+vV
+fK
+FB
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+DA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+jh
+jh
+jh
+QC
+OG
+jC
+Xb
+jC
+tH
+jh
+jh
+yr
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(69,1,1) = {"
+vV
+vV
+vV
+vV
+fK
+fK
+fK
+vV
+FB
+vV
+fK
+vV
+vV
+FB
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+jh
+jh
+jh
+tH
+os
+jC
+uN
+jC
+tH
+jh
+jh
+jh
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(70,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+BC
+tH
+tH
+tH
+tH
+tH
+tH
+jC
+jC
+jC
+tH
+jh
+jh
+jh
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(71,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+vv
+AG
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+fc
+tH
+tH
+tH
+tH
+tH
+BC
+CF
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(72,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+jN
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+sJ
+Lc
+Lc
+Lc
+Lc
+Lc
+GB
+ms
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(73,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+jN
+cY
+cY
+cY
+cY
+cY
+cY
+Dh
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(74,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+wp
+wp
+wp
+wp
+wp
+wp
+Sf
+wp
+wp
+VA
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(75,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(76,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(77,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+fK
+fK
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(78,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(79,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(80,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+jS
+jS
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(81,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+jS
+jS
+BP
+fS
+GT
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(82,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+jS
+FF
+Mw
+jS
+vb
+XD
+jS
+jS
+jS
+jS
+jS
+Ep
+Le
+jS
+BP
+qu
+Of
+xn
+Mp
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(83,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+jS
+jS
+qJ
+jS
+XS
+qb
+VM
+gX
+sC
+jq
+jS
+XB
+gc
+jS
+fV
+hy
+xl
+tZ
+XV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(84,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wx
+vH
+Vb
+Ij
+QP
+qX
+qX
+ti
+at
+pk
+Hb
+iX
+qi
+HX
+jS
+rI
+vw
+mm
+AY
+Mp
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(85,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+kp
+kp
+jS
+jS
+jS
+pc
+xh
+TC
+dg
+dN
+Gt
+jS
+NB
+Um
+jS
+jS
+rI
+lP
+IK
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(86,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+kp
+Wd
+Wd
+jS
+pc
+xh
+jS
+MR
+Zk
+Xw
+jS
+Vo
+PD
+jS
+jS
+jS
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(87,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+jS
+jS
+jS
+jS
+qa
+dN
+zc
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(88,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+Ia
+np
+DJ
+JM
+WO
+np
+mV
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(89,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+jR
+np
+DJ
+JM
+WO
+np
+yl
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(90,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+Ia
+np
+DJ
+iN
+VH
+np
+mV
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(91,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+jS
+jS
+nm
+iN
+vL
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(92,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+yz
+np
+DJ
+iN
+VH
+np
+eD
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(93,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+iR
+np
+DJ
+iN
+VH
+np
+Ah
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(94,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+yz
+np
+DJ
+iN
+VH
+np
+eD
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(95,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+Wd
+jS
+jS
+jS
+pB
+iN
+kM
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(96,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+jS
+pL
+np
+DJ
+iN
+hd
+np
+BZ
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(97,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+jS
+TE
+np
+IU
+QY
+VH
+np
+BZ
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(98,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+jS
+pL
+np
+AM
+mF
+Hi
+np
+BZ
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(99,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+jS
+jS
+jS
+np
+zY
+np
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(100,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+Wd
+jS
+tB
+tB
+CW
+tB
+tB
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(101,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+jS
+tB
+tB
+AK
+tB
+tB
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(102,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Wd
+Wd
+jS
+jS
+jS
+jS
+jS
+jS
+jS
+jS
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(103,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(104,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(105,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(106,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(107,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(108,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(109,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(110,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(111,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(112,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(113,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(114,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(115,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(116,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(117,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(118,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(119,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(120,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}
+(121,1,1) = {"
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+"}

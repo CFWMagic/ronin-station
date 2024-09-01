@@ -518,6 +518,297 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 
 	light_color = LIGHT_COLOR_YELLOW
 
+// 24.08.26 - CFW - Outpost consoles, same as regular but no ship access to avoid crashes
+/obj/machinery/computer/card/outpost/proc/get_jobs_o()
+	return get_all_jobs()
+
+/obj/machinery/computer/card/outpost/centcom/get_jobs_o()
+	return get_all_centcom_jobs()
+
+/obj/machinery/computer/card/outpost/ui_interact(mob/user)
+	. = ..()
+	var/list/dat = list()
+	if (mode == 1) // accessing crew manifest
+		dat += "<tt><b>Crew Manifest:</b><br>Please use security record computer to modify entries.<br><br>"
+		for(var/datum/data/record/t in sortRecord(GLOB.data_core.general))
+			dat += {"[t.fields["name"]] - [t.fields["rank"]]<br>"}
+		dat += "<a href='?src=[REF(src)];choice=print'>Print</a><br><br><a href='?src=[REF(src)];choice=mode;mode_target=0'>Access ID modification console.</a><br></tt>"
+
+	else
+		var/list/header = list()
+
+		var/scan_name = inserted_scan_id ? html_encode(inserted_scan_id.name) : "--------"
+		var/target_name = inserted_modify_id ? html_encode(inserted_modify_id.name) : "--------"
+		var/target_owner = (inserted_modify_id && inserted_modify_id.registered_name) ? html_encode(inserted_modify_id.registered_name) : "--------"
+		var/target_rank = (inserted_modify_id && inserted_modify_id.assignment) ? html_encode(inserted_modify_id.assignment) : "Unassigned"
+		var/target_age = (inserted_modify_id && inserted_modify_id.registered_age) ? html_encode(inserted_modify_id.registered_age) : "--------"
+
+		if(!authenticated)
+			header += {"<br><i>Please insert the cards into the slots</i><br>
+				Target: <a href='?src=[REF(src)];choice=inserted_modify_id'>[target_name]</a><br>
+				Confirm Identity: <a href='?src=[REF(src)];choice=inserted_scan_id'>[scan_name]</a><br>"}
+		else
+			header += {"<div align='center'><br>
+				Target: <a href='?src=[REF(src)];choice=inserted_modify_id'>Remove [target_name]</a> ||
+				Confirm Identity: <a href='?src=[REF(src)];choice=inserted_scan_id'>Remove [scan_name]</a><br>
+				<a href='?src=[REF(src)];choice=mode;mode_target=1'>Access Crew Manifest</a><br>
+				<a href='?src=[REF(src)];choice=logout'>Log Out</a></div>"}
+
+		header += "<hr>"
+
+		var/body
+
+		if (authenticated && inserted_modify_id)
+			var/list/carddesc = list()
+			var/list/jobs = list()
+			if (authenticated == AUTHENTICATED_ALL)
+				var/list/jobs_all = list()
+				for(var/job in (list("Unassigned") + get_jobs_o() + "Custom"))
+					jobs_all += "<a href='?src=[REF(src)];choice=assign;assign_target=[job]'>[replacetext(job, " ", "&nbsp;")]</a> " //make sure there isn't a line break in the middle of a job
+				carddesc += {"<script type="text/javascript">
+									function markRed(){
+										var nameField = document.getElementById('namefield');
+										nameField.style.backgroundColor = "#FFDDDD";
+									}
+									function markGreen(){
+										var nameField = document.getElementById('namefield');
+										nameField.style.backgroundColor = "#DDFFDD";
+									}
+									function showAll(){
+										var allJobsSlot = document.getElementById('alljobsslot');
+										allJobsSlot.innerHTML = "<a href='#' onclick='hideAll()'>hide</a><br>"+ "[jobs_all.Join()]";
+									}
+									function hideAll(){
+										var allJobsSlot = document.getElementById('alljobsslot');
+										allJobsSlot.innerHTML = "<a href='#' onclick='showAll()'>show</a>";
+									}
+								</script>"}
+				carddesc += {"<form name='cardcomp' action='?src=[REF(src)]' method='get'>
+					<input type='hidden' name='src' value='[REF(src)]'>
+					<input type='hidden' name='choice' value='reg'>
+					<b>registered name:</b> <input type='text' id='namefield' name='reg' value='[target_owner]' style='width:250px; background-color:white;' onchange='markRed()'>
+					<b>registered age:</b> <input type='number' id='namefield' name='setage' value='[target_age]' style='width:50px; background-color:white;' onchange='markRed()'>
+					<input type='submit' value='Submit' onclick='markGreen()'>
+					</form>
+					<b>Assignment:</b> "}
+
+				jobs += "<span id='alljobsslot'><a href='#' onclick='showAll()'>[target_rank]</a></span>" //CHECK THIS
+
+			else
+				carddesc += "<b>registered_name:</b> [target_owner]</span>"
+				jobs += "<b>Assignment:</b> [target_rank] (<a href='?src=[REF(src)];choice=demote'>Demote</a>)</span>"
+
+			var/list/accesses = list()
+			if(istype(src, /obj/machinery/computer/card/outpost/centcom)) // REE
+				accesses += "<h5>Central Command:</h5>"
+				for(var/A in get_all_centcom_access())
+					if(A in inserted_modify_id.access)
+						accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_centcom_access_desc(A), " ", "&nbsp")]</font></a> "
+					else
+						accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_centcom_access_desc(A), " ", "&nbsp")]</a> "
+			else
+				accesses += {"<div align='center'><b>Access</b></div>
+					<table style='width:100%'>
+					<tr>"}
+				for(var/i = 1; i <= 7; i++)
+					if(authenticated == AUTHENTICATED_DEPARTMENT && !(i in region_access))
+						continue
+					accesses += "<td style='width:14%'><b>[get_region_accesses_name(i)]:</b></td>"
+				accesses += "</tr><tr>"
+				for(var/i = 1; i <= 7; i++)
+					if(authenticated == AUTHENTICATED_DEPARTMENT && !(i in region_access))
+						continue
+					accesses += "<td style='width:14%' valign='top'>"
+					for(var/A in get_region_accesses(i))
+						if(A in inserted_modify_id.access)
+							accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_access_desc(A), " ", "&nbsp")]</font></a> "
+						else
+							accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_access_desc(A), " ", "&nbsp")]</a> "
+						accesses += "<br>"
+					accesses += "</td>"
+				accesses += "</tr></table>"
+			body = "[carddesc.Join()]<br>[jobs.Join()]<br><br>[accesses.Join()]<hr>" //CHECK THIS
+
+		else if (!authenticated)
+			body = {"<a href='?src=[REF(src)];choice=auth'>Log In</a><br><hr>
+				<a href='?src=[REF(src)];choice=mode;mode_target=1'>Access Crew Manifest</a><br><hr>"}
+
+		dat = list("<tt>", header.Join(), body, "<br></tt>")
+	var/datum/browser/popup = new(user, "id_com", src.name, 900, 620)
+	popup.set_content(dat.Join())
+	popup.open()
+
+/obj/machinery/computer/card/Topic(href, href_list)
+	if(..())
+		return
+
+	if(!usr.canUseTopic(src, !issilicon(usr)) || !is_operational)
+		usr.unset_machine()
+		usr << browse(null, "window=id_com")
+		return
+
+	usr.set_machine(src)
+	switch(href_list["choice"])
+		if ("inserted_modify_id")
+			if(inserted_modify_id && !usr.get_active_held_item())
+				if(id_eject(usr, inserted_modify_id))
+					inserted_modify_id = null
+					updateUsrDialog()
+					return
+			if(usr.get_id_in_hand())
+				var/obj/item/held_item = usr.get_active_held_item()
+				var/obj/item/card/id/id_to_insert = held_item.GetID()
+				if(id_insert(usr, held_item, inserted_modify_id))
+					inserted_modify_id = id_to_insert
+					updateUsrDialog()
+		if ("inserted_scan_id")
+			if(inserted_scan_id && !usr.get_active_held_item())
+				if(id_eject(usr, inserted_scan_id))
+					inserted_scan_id = null
+					updateUsrDialog()
+					return
+			if(usr.get_id_in_hand())
+				var/obj/item/held_item = usr.get_active_held_item()
+				var/obj/item/card/id/id_to_insert = held_item.GetID()
+				if(id_insert(usr, held_item, inserted_scan_id))
+					inserted_scan_id = id_to_insert
+					updateUsrDialog()
+		if ("auth")
+			if ((!(authenticated) && (inserted_scan_id || issilicon(usr)) || mode))
+				if (check_access(inserted_scan_id))
+					region_access = list()
+					if(ACCESS_CHANGE_IDS in inserted_scan_id.access)
+						if(target_dept)
+							region_access |= target_dept
+							authenticated = AUTHENTICATED_DEPARTMENT
+						else
+							authenticated = AUTHENTICATED_ALL
+						playsound(src, 'sound/machines/terminal_on.ogg', 50, FALSE)
+
+					else
+						if((ACCESS_HOP in inserted_scan_id.access) && ((target_dept==1) || !target_dept))
+							region_access |= 1
+							region_access |= 6
+						if((ACCESS_HOS in inserted_scan_id.access) && ((target_dept==2) || !target_dept))
+							region_access |= 2
+						if((ACCESS_CMO in inserted_scan_id.access) && ((target_dept==3) || !target_dept))
+							region_access |= 3
+						if((ACCESS_RD in inserted_scan_id.access) && ((target_dept==4) || !target_dept))
+							region_access |= 4
+						if((ACCESS_CE in inserted_scan_id.access) && ((target_dept==5) || !target_dept))
+							region_access |= 5
+						if(region_access)
+							authenticated = AUTHENTICATED_DEPARTMENT
+			else if ((!(authenticated) && issilicon(usr)) && (!inserted_modify_id))
+				to_chat(usr, "<span class='warning'>You can't modify an ID without an ID inserted to modify! Once one is in the modify slot on the computer, you can log in.</span>")
+		if ("logout")
+			region_access = null
+			authenticated = 0
+			playsound(src, 'sound/machines/terminal_off.ogg', 50, FALSE)
+
+		if("access")
+			if(href_list["allowed"])
+				if(authenticated)
+					var/access_type = text2num(href_list["access_target"])
+					var/access_allowed = text2num(href_list["allowed"])
+					if(access_type in (istype(src, /obj/machinery/computer/card/outpost/centcom)?get_all_centcom_access() : get_all_accesses()))
+						inserted_modify_id.access -= access_type
+						if(access_allowed == 1)
+							inserted_modify_id.access += access_type
+						playsound(src, "terminal_type", 50, FALSE)
+
+		if ("assign")
+			if (authenticated == AUTHENTICATED_ALL)
+				var/t1 = href_list["assign_target"]
+				if(t1 == "Custom")
+					var/newJob = reject_bad_text(input("Enter a custom job assignment.", "Assignment", inserted_modify_id ? inserted_modify_id.assignment : "Unassigned"), MAX_NAME_LEN)
+					if(newJob)
+						t1 = newJob
+
+				else if(t1 == "Unassigned")
+					inserted_modify_id.access -= get_all_accesses()
+
+				else
+					var/datum/job/jobdatum
+					for(var/jobtype in typesof(/datum/job))
+						var/datum/job/J = new jobtype
+						if(ckey(J.name) == ckey(t1))
+							jobdatum = J
+							updateUsrDialog()
+							break
+					if(!jobdatum)
+						to_chat(usr, "<span class='alert'>No log exists for this job.</span>")
+						updateUsrDialog()
+						return
+
+					inserted_modify_id.access = (istype(src, /obj/machinery/computer/card/outpost/centcom) ? get_centcom_access(t1) : jobdatum.get_access())
+				if (inserted_modify_id)
+					inserted_modify_id.assignment = t1
+					playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
+		if ("demote")
+			if(ACCESS_CHANGE_IDS in inserted_scan_id.access)
+				inserted_modify_id.assignment = "Unassigned"
+				playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
+			else
+				to_chat(usr, "<span class='alert'>You are not authorized to demote this position.</span>")
+		if ("reg")
+			if (authenticated)
+				var/t2 = inserted_modify_id
+				if ((authenticated && inserted_modify_id == t2 && (in_range(src, usr) || issilicon(usr)) && isturf(loc)))
+					var/newAge = text2num(href_list["setage"])|null
+					if(newAge && isnum(newAge))
+						inserted_modify_id.registered_age = newAge
+						playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
+					else if(!isnull(newAge))
+						to_chat(usr, "<span class='alert'>Invalid age entered- age not updated.</span>")
+						updateUsrDialog()
+
+					var/newName = reject_bad_name(href_list["reg"])
+					if(newName)
+						inserted_modify_id.registered_name = newName
+						playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
+					else
+						to_chat(usr, "<span class='alert'>Invalid name entered.</span>")
+						updateUsrDialog()
+						return
+		if ("mode")
+			mode = text2num(href_list["mode_target"])
+
+		if("return")
+			//DISPLAY MAIN MENU
+			mode = 3;
+			playsound(src, "terminal_type", 25, FALSE)
+
+		if ("print")
+			if (!(printing))
+				printing = 1
+				sleep(50)
+				var/obj/item/paper/printed_paper = new /obj/item/paper(loc)
+				var/t1 = "<B>Crew Manifest:</B><BR>"
+				for(var/datum/data/record/t in sortRecord(GLOB.data_core.general))
+					t1 += t.fields["name"] + " - " + t.fields["rank"] + "<br>"
+				printed_paper.add_raw_text(t1)
+				printed_paper.name = "paper- 'Crew Manifest'"
+				printing = null
+				playsound(src, 'sound/machines/terminal_insert_disc.ogg', 50, FALSE)
+	if (inserted_modify_id)
+		inserted_modify_id.update_label()
+	updateUsrDialog()
+
+/obj/machinery/computer/card/outpost
+	name = "\improper outpost identification console"
+	light_color = COLOR_SOFT_RED
+	icon_screen = "id"
+	circuit = /obj/item/circuitboard/computer/card/outpost
+	req_access = list(ACCESS_CENT_CAPTAIN)
+
+/obj/machinery/computer/card/outpost/centcom
+	name = "\improper outpost HQ identification console"
+	light_color = COLOR_SOFT_RED
+	icon_screen = "idcentcom"
+	circuit = /obj/item/circuitboard/computer/card/outpost/centcom
+	req_access = list(ACCESS_CENT_CAPTAIN)
+
 #undef JOB_ALLOWED
 #undef JOB_COOLDOWN
 #undef JOB_MAX_POSITIONS

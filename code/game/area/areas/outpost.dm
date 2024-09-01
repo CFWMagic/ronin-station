@@ -89,10 +89,25 @@
 	lighting_colour_bulb = "#ffbc6f"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
+/area/outpost/engineering/workshop
+	name = "Workshop"
+	icon_state = "engine_foyer"
+
 /area/outpost/engineering/atmospherics
 	name = "Atmospherics"
 	icon_state = "atmos"
 
+/area/outpost/engineering/core
+	name = "Engine Core"
+	icon_state = "engine_control"
+
+/area/outpost/engineering/storage
+	name = "Engineering Storage"
+	icon_state = "engi_storage"
+
+/area/outpost/engineering/substation
+	name = "Engineering Substation"
+	icon_state = "engine_monitoring"
 
 /area/outpost/hallway
 	name = "Hallway"

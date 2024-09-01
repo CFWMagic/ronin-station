@@ -88,6 +88,13 @@
 	desc = "A heavy duty blast door that only opens for dire emergencies."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
+// 24.08.29 - CFW - Add pre-open admin blastwalls
+/obj/machinery/door/poddoor/ert/preopen
+	icon_state = "open"
+	density = FALSE
+	opacity = FALSE
+
+
 //special poddoors that open when emergency shuttle docks at centcom
 /obj/machinery/door/poddoor/shuttledock
 	var/checkdir = 4	//door won't open if turf in this dir is `turftype`
