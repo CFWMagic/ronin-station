@@ -826,3 +826,18 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 	spread = 6
 	recoil = 2
 	recoil_unwielded = 4
+
+
+
+//////////////////////////////////NETZ CODE, PROBABLY AWFUL////////////////////////////////////
+//////////////////////////////////PLEASE CHECK FOR ERRORS//////////////////////////////////////
+
+/obj/item/gun/ballistic/shotgun/automatic/combat
+	name = "B Type Prosthetic Shotgun Arm"
+	desc = "A common Prosthetic for captains across the cosmos."
+	desc = "It's claim to fame is it's use by the captain of the UES Safe Travels."
+	icon_state = "Shotgun_Arm"
+	item_state = "shotgun_combat" //I haven't changed this yet
+	fire_delay = 1.5 SECONDS
+	mag_type = /obj/item/ammo_box/magazine/internal/shot/netz
+	w_class = WEIGHT_CLASS_BULKY
