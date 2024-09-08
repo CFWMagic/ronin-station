@@ -1,6 +1,7 @@
 /obj/structure/closet/infinite
 	name = "military locker"
 	desc = "Ample storage space."
+	icon_state = "syndicate"
 	max_integrity = 250
 	armor = list("melee" = 30, "bullet" = 50, "laser" = 50, "energy" = 100, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
 	damage_deflection = 20
@@ -44,7 +45,7 @@
 	desc = "Ample card-locked storage space."
 	locked = TRUE
 //	req_access = list(ACCESS_CENT_CAPTAIN)
-	icon_state = "secure"
+	icon_state = "tac"
 	max_integrity = 250
 	armor = list("melee" = 30, "bullet" = 50, "laser" = 50, "energy" = 100, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
 	secure = TRUE
