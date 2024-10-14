@@ -91,5 +91,5 @@
 /obj/item/ammo_box/magazine/internal/shot/netz
 	name = "Captain's Arm Prosthetic"
 	desc = "You shouldn't see this, please report this immediately and have an admin respawn you or some shit idk"
-	max_ammo = 100
+	max_ammo = 1000000
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
