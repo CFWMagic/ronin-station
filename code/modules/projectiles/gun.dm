@@ -664,23 +664,24 @@
 						ignored_mobs = user
 				)
 
+	// CFW - No virtue signalling or politics in my games. Take your memes elsewhere.
 	//cloudy sent a meme in the discord. i dont know if its true, but i made this piece of code in honor of it
-	var/mob/living/carbon/human/living_human = user
-	if(istype(living_human))
-		if(!living_human.wear_neck)
-			return //if nothing on the neck, don't do anything
-		var/current_month = text2num(time2text(world.timeofday, "MM"))
-		var/static/regex/bian = regex("(?:^\\W*lesbian)", "i")
+//	var/mob/living/carbon/human/living_human = user
+//	if(istype(living_human))
+//		if(!living_human.wear_neck)
+//			return //if nothing on the neck, don't do anything
+//		var/current_month = text2num(time2text(world.timeofday, "MM"))
+//		var/static/regex/bian = regex("(?:^\\W*lesbian)", "i")
 
-		if(current_month == JUNE)
-			return //if it isn't june, don't do this easter egg
+//		if(current_month == JUNE)
+//			return //if it isn't june, don't do this easter egg
 
-		if(!findtext(bian, living_human.generic_adjective))
-			return //dont bother if we already are affected by it
+//		if(!findtext(bian, living_human.generic_adjective))
+//			return //dont bother if we already are affected by it
 
-		if(istype(living_human.wear_neck, /obj/item/clothing/neck/tie/lesbian) || living_human.wear_neck.icon_state == "lesbian")
-			var/use_space = "[living_human.generic_adjective ? " " : ""]"
-			living_human.generic_adjective = "lesbian[use_space][living_human.generic_adjective]" //i actually don't remember the meme. it was something like lesbians will stop working if they see another with a gun. or something.
+//		if(istype(living_human.wear_neck, /obj/item/clothing/neck/tie/lesbian) || living_human.wear_neck.icon_state == "lesbian")
+//			var/use_space = "[living_human.generic_adjective ? " " : ""]"
+//			living_human.generic_adjective = "lesbian[use_space][living_human.generic_adjective]" //i actually don't remember the meme. it was something like lesbians will stop working if they see another with a gun. or something.
 
 /obj/item/gun/CtrlClick(mob/user)
 	. = ..()

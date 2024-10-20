@@ -10070,11 +10070,6 @@
 "LO" = (
 /obj/structure/chair/sofa/brown/directional/north,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/toy/plush/hornet/gay{
-	layer = 2.1;
-	pixel_y = 12;
-	pixel_x = 4
-	},
 /turf/open/floor/carpet/green,
 /area/ship/crew/dorm)
 "LP" = (

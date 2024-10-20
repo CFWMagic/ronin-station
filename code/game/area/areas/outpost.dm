@@ -135,6 +135,9 @@
 	name = "Central Hallway"
 	icon_state = "hallC"
 
+/area/outpost/hallway/central/elevator
+	name = "Elevator Hallway"
+	icon_state = "entry"
 
 /area/outpost/maintenance
 	name = "Maintenance"
@@ -163,6 +166,13 @@
 	name = "Central Maintenance"
 	icon_state = "maintcentral"
 
+/area/outpost/maintenance/central/elevator
+	name = "Elevator Maintenance"
+	icon_state = "maintcentral"
+
+/area/outpost/maintenance/central/elevator/checkpoint
+	name = "Elevator Checkpoint Maintenance"
+	icon_state = "maint_sec"
 
 /area/outpost/medical
 	name = "Infirmary"
@@ -200,6 +210,10 @@
 /area/outpost/security/checkpoint
 	name = "Security Checkpoint"
 	icon_state = "checkpoint1"
+
+/area/outpost/security/checkpoint/elevator
+	name = "Elevator Security Checkpoint"
+	icon_state = "checkpoint_esc"
 
 /area/outpost/storage
 	name = "Storage"

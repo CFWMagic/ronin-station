@@ -324,27 +324,22 @@
 	glow_color = "#FF3333"
 
 /datum/plant_gene/trait/glow/yellow
-	//not the disgusting glowshroom yellow hopefully
 	name = "Yellow Bioluminescence"
 	glow_color = "#FFFF66"
 
 /datum/plant_gene/trait/glow/green
-	//oh no, now i'm radioactive
 	name = "Green Bioluminescence"
 	glow_color = "#99FF99"
 
 /datum/plant_gene/trait/glow/blue
-	//the best one
 	name = "Blue Bioluminescence"
 	glow_color = "#6699FF"
 
 /datum/plant_gene/trait/glow/purple
-	//did you know that notepad++ doesnt think bioluminescence is a word
 	name = "Purple Bioluminescence"
 	glow_color = "#D966FF"
 
 /datum/plant_gene/trait/glow/pink
-	//gay tide station pride
 	name = "Pink Bioluminescence"
 	glow_color = "#FFB3DA"
 

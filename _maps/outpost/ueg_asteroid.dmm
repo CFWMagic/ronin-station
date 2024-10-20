@@ -1538,7 +1538,7 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/outpost/engineering/atmospherics)
 "eV" = (
-/obj/machinery/rnd/production/techfab/department,
+/obj/machinery/mech_bay_recharge_port,
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "eW" = (
@@ -2498,6 +2498,10 @@
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel/tech,
 /area/outpost/engineering/storage)
+"ik" = (
+/obj/structure/rack,
+/turf/open/floor/plasteel/tech,
+/area/outpost/hallway/starboard)
 "il" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -7301,6 +7305,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/outpost/hallway/central)
+"xi" = (
+/obj/machinery/computer/rdconsole,
+/turf/open/floor/plasteel/tech,
+/area/outpost/hallway/starboard)
 "xj" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -9323,8 +9331,7 @@
 /area/outpost/maintenance/fore)
 "DE" = (
 /obj/machinery/light/directional/east,
-/obj/structure/rack,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/mech_bay_recharge_floor,
 /area/outpost/hallway/starboard)
 "DF" = (
 /obj/item/kirbyplants/random,
@@ -11621,6 +11628,12 @@
 	},
 /turf/open/floor/plating,
 /area/outpost/maintenance/fore)
+"KK" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/outpost/hallway/starboard)
 "KL" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/grass,
@@ -13446,7 +13459,7 @@
 	layer = 3.1;
 	dir = 8
 	},
-/obj/structure/table/reinforced,
+/obj/machinery/mecha_part_fabricator,
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "QF" = (
@@ -14738,7 +14751,7 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/north,
-/obj/structure/table/reinforced,
+/obj/machinery/rnd/production/techfab/department,
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "UW" = (
@@ -26190,7 +26203,7 @@ gK
 UY
 GC
 UD
-gO
+xi
 gO
 gO
 gO
@@ -26438,8 +26451,8 @@ pI
 UD
 gO
 gO
-gO
-gO
+ik
+KK
 gO
 Ya
 MP
