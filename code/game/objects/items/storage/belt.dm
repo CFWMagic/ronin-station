@@ -477,6 +477,8 @@
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 14
+	STR.display_numerical_stacking = FALSE
+	STR.max_combined_w_class = 60
 	STR.max_w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/belt/military/c20r/PopulateContents()

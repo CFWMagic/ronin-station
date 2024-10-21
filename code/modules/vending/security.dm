@@ -162,6 +162,7 @@
 		/obj/item/clothing/suit/armor/vest/marine/heavy = 50,
 		/obj/item/clothing/accessory/holster/marine = 50,
 		/obj/item/storage/belt/military = 50,
+		/obj/item/clothing/mask/gas/sechailer/swat/spacepol = 50,
 		)
 	contraband = list()
 	premium = list()
