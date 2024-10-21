@@ -34,8 +34,9 @@
 
 	spread = -5
 	spread_unwielded = 40
-	recoil = 5
-	recoil_unwielded = 50
+	recoil = 0 //5
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //50
 
 	wield_delay = 1.3 SECONDS
 

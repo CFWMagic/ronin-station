@@ -7,8 +7,9 @@
 	weapon_weight = WEAPON_LIGHT
 	pickup_sound =  'sound/items/handling/gun_pickup.ogg'
 
-	recoil = 0.5 // apogee wants bloom, this is a placeholder until then to simulate the same concept.
-	recoil_unwielded = 3
+	recoil = 0 //0.5 // apogee wants bloom, this is a placeholder until then to simulate the same concept.
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //3
 	recoil_backtime_multiplier = 1
 
 	wield_delay = 0.2 SECONDS
@@ -47,7 +48,8 @@
 
 	spread = 6 //becuase its compact, spread is slightly worse
 	spread_unwielded = 9
-	recoil_unwielded = 2
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //2
 
 EMPTY_GUN_HELPER(automatic/pistol/syndicate)
 
@@ -116,8 +118,9 @@ EMPTY_GUN_HELPER(automatic/pistol/candor/factory)
 	eject_sound = 'sound/weapons/gun/pistol/deagle_unload.ogg'
 	eject_empty_sound = 'sound/weapons/gun/pistol/deagle_unload.ogg'
 	fire_delay = 0.6 SECONDS
-	recoil = 2
-	recoil_unwielded = 5
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //2
+	recoil_unwielded = 0.5 //5
 	recoil_backtime_multiplier = 2
 
 	spread = 7

@@ -14,8 +14,9 @@
 
 	spread = 4
 	spread_unwielded = 80
-	recoil = 1
-	recoil_unwielded = 4
+	recoil = 0.5 //1
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //4
 	wield_slowdown = 3
 
 	///does this have a bipod?
@@ -274,8 +275,9 @@
 	spread = 7 //you can hipfire, but why?
 	spread_unwielded = 25
 
-	recoil = 1 //identical to other LMGS
-	recoil_unwielded = 4 //same as skm
+	recoil = 0.5 //1 //identical to other LMGS
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //4 //same as skm
 
 	wield_slowdown = 1 //not as severe as other lmgs, but worse than the normal skm
 	wield_delay = 0.85 SECONDS //faster than normal lmgs, slower than stock skm

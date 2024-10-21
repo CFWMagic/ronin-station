@@ -6,7 +6,8 @@
 	spread = 6
 	spread_unwielded = 10
 	wield_slowdown = 0.35
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //4
 	w_class = WEIGHT_CLASS_BULKY
 
 	gun_firemodes = list(FIREMODE_SEMIAUTO, FIREMODE_FULLAUTO)
@@ -281,8 +282,9 @@ EMPTY_GUN_HELPER(automatic/smg/cm5)
 
 	fire_delay = 0.08 SECONDS
 
-	recoil = 1
-	recoil_unwielded = 2
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //1
+	recoil_unwielded = 0.5 //2
 	wield_delay = 0.2 SECONDS
 	wield_slowdown = 0.15
 
@@ -307,8 +309,9 @@ EMPTY_GUN_HELPER(automatic/smg/cm5)
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/skm_545_39
 
-	recoil = 2
-	recoil_unwielded = 6
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //2
+	recoil_unwielded = 0.5 //6
 
 	spread = 8
 	spread_unwielded = 14
@@ -367,10 +370,11 @@ EMPTY_GUN_HELPER(automatic/smg/cm5)
 	eject_empty_sound = 'sound/weapons/gun/smg/smg_unload.ogg'
 
 	spread = 7
-	recoil_unwielded = 10
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //10
 
 	recoil = 0
-	recoil_unwielded = 4
+	recoil_unwielded = 0.5 //4
 
 	wield_delay = 0.4 SECONDS
 

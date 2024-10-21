@@ -25,7 +25,8 @@
 	spread = 0
 	spread_unwielded = 25
 	recoil = 0
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //4
 	wield_slowdown = 0.75
 	wield_delay = 1 SECONDS
 	fire_select_icon_state_prefix = "pellet_"
@@ -49,8 +50,9 @@
 	show_magazine_on_sprite = FALSE
 	empty_indicator = FALSE
 	manufacturer = MANUFACTURER_SOLARARMORIES
-	recoil = 2
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //2
+	recoil_unwielded = 0.5 //4
 	spread = 6
 	spread_unwielded = 12
 	fire_select_icon_state_prefix = "slug_"

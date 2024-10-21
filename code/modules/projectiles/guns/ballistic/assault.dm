@@ -168,7 +168,8 @@
 	fire_select_icon_state_prefix = "e40_"
 
 	fire_delay = 0.18 SECONDS
-	recoil_unwielded = 3
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //3
 
 	gun_firenames = list(FIREMODE_FULLAUTO = "full auto ballistic", FIREMODE_OTHER = "full auto laser")
 	gun_firemodes = list(FIREMODE_FULLAUTO, FIREMODE_OTHER)
@@ -335,5 +336,6 @@
 
 	spread_unwielded = 25
 	recoil = 0
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //4
 	wield_slowdown = 0.75

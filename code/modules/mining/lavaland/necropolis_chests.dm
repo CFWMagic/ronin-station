@@ -877,7 +877,8 @@
 	charge_delay = 1
 	slot_flags = ITEM_SLOT_BELT
 	fire_delay = 0.1 SECONDS
-	recoil = 1
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //1
 	cell_type = /obj/item/stock_parts/cell/gun
 	ammo_type = list(/obj/item/ammo_casing/energy/spur)
 	supports_variations = VOX_VARIATION
@@ -890,7 +891,8 @@
 /obj/item/gun/energy/spur/update_appearance()
 	if(!cell)
 		chargesound = null
-		recoil = 1
+// 24.10.21 CFW - Remove screen shake
+		recoil = 0.5 //1
 		fire_sound = 'sound/weapons/spur_high.ogg'
 		return
 
@@ -913,7 +915,8 @@
 		fire_sound = 'sound/weapons/spur_high.ogg'
 	else
 		chargesound = null
-		recoil = 1
+// 24.10.21 CFW - Remove screen shake
+		recoil = 0.5 //1
 		fire_sound = 'sound/weapons/spur_high.ogg'
 
 	if(chargesound != oldsound)

@@ -32,8 +32,9 @@
 
 	spread = 4
 	spread_unwielded = 10
-	recoil = 1
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //1
+	recoil_unwielded = 0.5 //4
 
 /obj/item/gun/ballistic/shotgun/blow_up(mob/user)
 	if(chambered && chambered.BB)
@@ -90,8 +91,9 @@
 
 		spread = 18
 		spread_unwielded = 25
-		recoil = 5 //your punishment for sawing off an short shotgun
-		recoil_unwielded = 8
+// 24.10.21 CFW - Remove screen shake
+		recoil = 0.5 //5 //your punishment for sawing off an short shotgun
+		recoil_unwielded = 0.5 //8
 		item_state = "illestren_factory_sawn" // i couldnt care about making another sprite, looks close enough
 		mob_overlay_state = item_state
 
@@ -127,8 +129,9 @@
 
 		spread = 8
 		spread_unwielded = 15
-		recoil = 3 //or not
-		recoil_unwielded = 5
+// 24.10.21 CFW - Remove screen shake
+		recoil = 0.5 //3 //or not
+		recoil_unwielded = 0.5 //5
 		item_state = "dshotgun_sawn" // ditto
 		mob_overlay_state = item_state
 
@@ -138,8 +141,9 @@
 /obj/item/gun/ballistic/shotgun/automatic
 	spread = 4
 	spread_unwielded = 16
-	recoil = 1
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //1
+	recoil_unwielded = 0.5 //4
 	wield_delay = 0.65 SECONDS
 	manufacturer = MANUFACTURER_NANOTRASEN
 
@@ -253,8 +257,9 @@
 
 	spread = 4
 	spread_unwielded = 16
-	recoil = 1
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //1
+	recoil_unwielded = 0.5 //4
 	wield_slowdown = 0.6
 	wield_delay = 0.65 SECONDS
 
@@ -402,8 +407,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 
 		spread = 8
 		spread_unwielded = 15
-		recoil = 3 //or not
-		recoil_unwielded = 5
+// 24.10.21 CFW - Remove screen shake
+		recoil = 0.5 //3 //or not
+		recoil_unwielded = 0.5 //5
 		item_state = "dshotgun_sawn"
 		mob_overlay_state = item_state
 
@@ -424,8 +430,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 
 	spread = 8
 	spread_unwielded = 15
-	recoil = 3 //or not
-	recoil_unwielded = 5
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //3 //or not
+	recoil_unwielded = 0.5 //5
 	item_state = "dshotgun_sawn"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/dual/lethal
 
@@ -574,8 +581,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 	burst_delay = 0.04 SECONDS //?? very weird number
 	pb_knockback = 12
 	unique_reskin = null
-	recoil = 10
-	recoil_unwielded = 30
+// 24.10.21 CFW - Remove screen shake
+	recoil = 1 //10
+	recoil_unwielded = 1 //30
 	weapon_weight = WEAPON_LIGHT
 	fire_sound = 'sound/weapons/gun/shotgun/quadfire.ogg'
 	rack_sound = 'sound/weapons/gun/shotgun/quadrack.ogg'
@@ -608,8 +616,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 	burst_size = 100
 	fire_delay = 0.01 SECONDS
 	pb_knockback = 40
-	recoil = 100
-	recoil_unwielded = 200
+// 24.10.21 CFW - Remove screen shake
+	recoil = 1 //100
+	recoil_unwielded = 1 //200
 	recoil_backtime_multiplier = 1
 	fire_sound_volume = 100
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/hundred
@@ -641,8 +650,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 	spread = -5
 	spread_unwielded = 7
 
+// 24.10.21 CFW - Remove screen shake
 	recoil = 0
-	recoil_unwielded = 2
+	recoil_unwielded = 0.5 //2
 
 /obj/item/gun/ballistic/shotgun/flamingarrow/no_mag
 	spawnwithmagazine = FALSE
@@ -689,8 +699,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 		spread = 4
 		spread_unwielded = 12
 
+// 24.10.21 CFW - Remove screen shake
 		recoil = 0
-		recoil_unwielded = 3
+		recoil_unwielded = 0.5 //3
 
 /obj/item/gun/ballistic/shotgun/flamingarrow/factory
 	desc = "A sturdy and lightweight lever-action rifle with hand-stamped Hunter's Pride marks on the receiver. This example has been kept in excellent shape and may as well be fresh out of the workshop. Chambered in .38."
@@ -735,7 +746,8 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/twobore
 	w_class = WEIGHT_CLASS_BULKY
 	force = 20 //heavy ass elephant gun, why wouldnt it be
-	recoil = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //4
 	pb_knockback = 12
 	fire_sound = 'sound/weapons/gun/shotgun/quadfire.ogg'
 	rack_sound = 'sound/weapons/gun/shotgun/quadrack.ogg'
@@ -772,8 +784,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 	wield_slowdown = 0.7
 	spread_unwielded = 15
 	spread = 0
+// 24.10.21 CFW - Remove screen shake
 	recoil = 0
-	recoil_unwielded = 5
+	recoil_unwielded = 0.5 //5
 
 	gun_firemodes = list(FIREMODE_SEMIAUTO)
 	default_firemode = FIREMODE_SEMIAUTO
@@ -788,8 +801,9 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 
 		spread_unwielded = 20 //mostly the hunting revolver stats
 		spread = 6
-		recoil = 2
-		recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+		recoil = 0.5 //2
+		recoil_unwielded = 0.5 //4
 
 /obj/item/gun/ballistic/shotgun/doublebarrel/beacon/no_mag
 	spawnwithmagazine = FALSE
@@ -824,5 +838,6 @@ EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 
 	spread_unwielded = 20 //mostly the hunting revolver stats
 	spread = 6
-	recoil = 2
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //2
+	recoil_unwielded = 0.5 //4

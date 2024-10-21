@@ -28,7 +28,8 @@
 	fire_delay = 0.4 SECONDS
 	spread_unwielded = 15
 	recoil = 0.5
-	recoil_unwielded = 2
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //2
 	semi_auto = FALSE
 	bolt_wording = "hammer"
 	dry_fire_sound = 'sound/weapons/gun/general/bolt_drop.ogg'
@@ -582,7 +583,8 @@ EMPTY_GUN_HELPER(revolver/detective)
 	desc = "This ain't no game, ain't never been no show, And I'll gladly gun down the oldest lady you know. Uses .357 ammo."
 	icon_state = "goldrevolver"
 	fire_sound = 'sound/weapons/resonator_blast.ogg'
-	recoil = 8
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //8
 	manufacturer = MANUFACTURER_NONE
 
 /obj/item/gun/ballistic/revolver/montagne
@@ -624,8 +626,9 @@ EMPTY_GUN_HELPER(revolver/detective)
 	wield_slowdown = 0.5
 	spread_unwielded = 20
 	spread = 6
-	recoil = 2
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil = 0.5 //2
+	recoil_unwielded = 0.5 //4
 
 /obj/item/gun/ballistic/revolver/ashhand/ComponentInitialize()
 	. = ..()

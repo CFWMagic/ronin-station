@@ -18,7 +18,8 @@
 	spread = 0
 	spread_unwielded = 13
 	recoil = 0
-	recoil_unwielded = 4
+// 24.10.21 CFW - Remove screen shake
+	recoil_unwielded = 0.5 //4
 	wield_slowdown = 0.35
 
 // Old Semi-Auto Rifle //
