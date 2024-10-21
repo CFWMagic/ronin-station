@@ -154,5 +154,5 @@
 		/obj/item/gun/energy/dueling))
 
 /datum/component/storage/concrete/pockets/holster/marine
-	max_items = 7
+	max_items = 4
 	max_w_class = WEIGHT_CLASS_NORMAL

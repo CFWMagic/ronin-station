@@ -456,13 +456,15 @@
 
 /obj/item/clothing/accessory/holster/marine
 	name = "marine's holster"
-	desc = "Wearing this makes you feel badass, but you suspect it's just a detective's holster from a surplus somewhere."
+	desc = "A standard issue holster used by military and para-military personnel alike."
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/holster/marine
 
 /obj/item/clothing/accessory/holster/marine/Initialize()
 	. = ..()
+	new /obj/item/ammo_box/c45(src)
+	new /obj/item/ammo_box/magazine/m45(src)
+	new /obj/item/ammo_box/magazine/m45(src)
 	new /obj/item/gun/ballistic/automatic/pistol/candor(src)
-	new /obj/item/ammo_box/magazine/m45(src)
-	new /obj/item/ammo_box/magazine/m45(src)
 
 /obj/item/clothing/accessory/waistcoat/solgov
 	name = "solgov waistcoat"

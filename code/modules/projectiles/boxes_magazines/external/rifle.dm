@@ -97,7 +97,7 @@
 
 /obj/item/ammo_box/magazine/p16
 	name = "assault rifle magazine (5.56x45mm)"
-	desc = "A simple, 30-round magazine for 5.56x45mm assault rifles. These rounds do moderate damage with good armor penetration."
+	desc = "A standard issue, 30-round magazine for 5.56x45mm assault rifles. These rounds do moderate damage with good armor penetration."
 	icon_state = "p16_mag-1"
 	base_icon_state = "p16_mag"
 	ammo_type = /obj/item/ammo_casing/a556_39
