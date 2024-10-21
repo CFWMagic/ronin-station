@@ -20,6 +20,17 @@
 	icon_state = "boombox-"
 	density = FALSE
 
+/obj/machinery/jukebox/boombox/portable
+	name = "boombox"
+	desc = "A portable music player."
+	icon_state = "boombox-"
+	density = FALSE
+	use_power = NO_POWER_USE
+	use_static_power = NO_POWER_USE
+	idle_power_usage = 0
+	active_power_usage = 0
+	anchored = FALSE
+	
 
 /obj/machinery/jukebox/disco
 	name = "radiant dance machine mark IV"
@@ -60,9 +71,9 @@
 	return ..()
 
 /obj/machinery/jukebox/ui_status(mob/user)
-	if(!anchored)
-		to_chat(user,"<span class='warning'>This device must be anchored by a wrench!</span>")
-		return UI_CLOSE
+//	if(!anchored)
+//		to_chat(user,"<span class='warning'>This device must be anchored by a wrench!</span>")
+//		return UI_CLOSE
 	if(!allowed(user) && !isobserver(user))
 		to_chat(user,"<span class='warning'>Error: Access Denied.</span>")
 		user.playsound_local(src, 'sound/misc/compiler-failure.ogg', 25, TRUE)

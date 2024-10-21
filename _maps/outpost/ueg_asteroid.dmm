@@ -1538,7 +1538,7 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/outpost/engineering/atmospherics)
 "eV" = (
-/obj/machinery/mech_bay_recharge_port,
+/obj/machinery/mecha_part_fabricator,
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "eW" = (
@@ -2917,8 +2917,7 @@
 	layer = 3.1;
 	dir = 10
 	},
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/mech_bay_recharge_floor,
 /area/outpost/hallway/starboard)
 "jG" = (
 /obj/effect/turf_decal/techfloor,
@@ -6160,7 +6159,6 @@
 /obj/structure/railing/wood{
 	layer = 3.1
 	},
-/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "tF" = (
@@ -9331,7 +9329,8 @@
 /area/outpost/maintenance/fore)
 "DE" = (
 /obj/machinery/light/directional/east,
-/turf/open/floor/mech_bay_recharge_floor,
+/obj/machinery/rnd/production/techfab/department,
+/turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "DF" = (
 /obj/item/kirbyplants/random,
@@ -11628,12 +11627,6 @@
 	},
 /turf/open/floor/plating,
 /area/outpost/maintenance/fore)
-"KK" = (
-/obj/machinery/computer/mech_bay_power_console{
-	dir = 8
-	},
-/turf/open/floor/plasteel/tech,
-/area/outpost/hallway/starboard)
 "KL" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/grass,
@@ -13459,7 +13452,9 @@
 	layer = 3.1;
 	dir = 8
 	},
-/obj/machinery/mecha_part_fabricator,
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "QF" = (
@@ -14751,7 +14746,9 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/north,
-/obj/machinery/rnd/production/techfab/department,
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
 /turf/open/floor/plasteel/tech,
 /area/outpost/hallway/starboard)
 "UW" = (
@@ -26452,7 +26449,7 @@ UD
 gO
 gO
 ik
-KK
+ik
 gO
 Ya
 MP
