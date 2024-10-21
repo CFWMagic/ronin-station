@@ -203,6 +203,7 @@
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 21 // 6 // 24.10.21 - CFW - 21 cigarettes per pack
+	STR.max_combined_w_class = 60
 	STR.set_holdable(list(/obj/item/clothing/mask/cigarette, /obj/item/lighter))
 
 /obj/item/storage/fancy/cigarettes/examine(mob/user)
@@ -227,7 +228,7 @@
 //	return
 // CFW - 24.10.21 - Crude fix to enable holding 21 cigarette
 	if(contents.len > 6)
-		icon_state = "[initial(icon_state)][6]"
+		icon_state = "[base_icon_state][6 ? null : "_empty"]"
 	else	
 		icon_state = "[base_icon_state][contents.len ? null : "_empty"]"
 	return
