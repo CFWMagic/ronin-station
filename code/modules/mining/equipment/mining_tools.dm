@@ -10,7 +10,7 @@
 	item_state = "pickaxe"
 	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/mining_righthand.dmi'
-	w_class = WEIGHT_CLASS_BULKY
+	w_class = WEIGHT_CLASS_NORMAL //WEIGHT_CLASS_BULKY // 24.10.21 - CFW - Reduce pickaxe size
 	supports_variations = VOX_VARIATION
 	custom_materials = list(/datum/material/iron=2000) //one sheet, but where can you make them?
 	tool_behaviour = TOOL_MINING
@@ -32,7 +32,7 @@
 	force = 10
 	throwforce = 7
 	slot_flags = ITEM_SLOT_BELT
-	w_class = WEIGHT_CLASS_NORMAL
+	w_class = WEIGHT_CLASS_SMALL //WEIGHT_CLASS_NORMAL // 24.10.21 - CFW - Reduce pickaxe size
 	custom_materials = list(/datum/material/iron=1000)
 
 /obj/item/pickaxe/silver
@@ -65,6 +65,7 @@
 	hitsound = 'sound/weapons/drill.ogg'
 	desc = "An electric mining drill, complete with self-cleaning bit and part replacements. Optimized for the especially scrawny."
 	attack_verb = list("drilled", "bored", "rent", "carved")
+	w_class = WEIGHT_CLASS_BULKY // 24.10.21 - CFW - Keep drills bulky
 
 /obj/item/pickaxe/drill/cyborg
 	name = "integrated mining drill"
@@ -138,7 +139,7 @@
 	throwforce = 7
 	toolspeed = 1.5 //slower than a normal pickaxe
 	slot_flags = ITEM_SLOT_BELT
-	w_class = WEIGHT_CLASS_NORMAL
+	w_class = WEIGHT_CLASS_SMALL //WEIGHT_CLASS_NORMAL // 24.10.21 - CFW - Reduce pickaxe size
 	custom_materials = list(/datum/material/iron=12050) //metal needed for a crowbar and for a knife, why the FUCK does a knife cost 6 metal sheets while a crowbar costs 0.025 sheets? shit makes no sense fuck this
 
 /obj/item/shovel
