@@ -88,11 +88,9 @@
 /turf/open/floor/engine/hull/interior,
 /area/ship/storage)
 "aj" = (
-/obj/structure/closet/crate/eva,
 /obj/effect/turf_decal/box,
 /obj/machinery/light/directional/east,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/electrical,
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine/hull/interior,
 /area/ship/storage)
 "ak" = (
@@ -335,6 +333,16 @@
 /obj/structure/grille,
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external)
+"oi" = (
+/obj/effect/turf_decal/box,
+/obj/structure/closet/crate/eva,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/turf/open/floor/engine/hull/interior,
+/area/ship/storage)
 "pk" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -597,7 +605,7 @@ Pq
 hJ
 ah
 RO
-bG
+oi
 hJ
 Pq
 "}
