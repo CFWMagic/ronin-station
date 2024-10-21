@@ -88,8 +88,8 @@
 	manufacturer = MANUFACTURER_INTEQ
 
 /obj/item/gun/ballistic/automatic/assault/p16
-	name = "\improper P-16"
-	desc = "An assault rifle pattern from Sol, existing before the Night of Fire. A favorite of professional mercenaries and well-heeled pirates. Chambered in 5.56mm."
+	name = "\improper M16A3"
+	desc = "An assault rifle pattern from Sol, existing before the Night of Fire. A favorite of professional mercenaries and well-heeled pirates. Chambered in 5.56x45mm."
 	icon = 'icons/obj/guns/48x32guns.dmi'
 	fire_sound = 'sound/weapons/gun/rifle/m16.ogg'
 	icon_state = "p16"
@@ -113,8 +113,8 @@
 	spawnwithmagazine = FALSE
 
 /obj/item/gun/ballistic/automatic/assault/p16/minutemen
-	name = "\improper CM-16"
-	desc = "The standard-issue rifle of CLIP and an extensively modified reproduction of the P-16. Chambered in 5.56mm."
+	name = "\improper M4A1"
+	desc = "The standard-issue rifle of Earth Gov Marines, it's a carabine version of the M16 family of rifles. Chambered in 5.56x45mm."
 	icon = 'icons/obj/guns/manufacturer/clip_lanchester/48x32.dmi'
 	lefthand_file = 'icons/obj/guns/manufacturer/clip_lanchester/lefthand.dmi'
 	righthand_file = 'icons/obj/guns/manufacturer/clip_lanchester/righthand.dmi'

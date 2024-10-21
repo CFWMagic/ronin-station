@@ -177,7 +177,7 @@
 	crate_name = "auto rifle crate"
 
 /datum/supply_pack/gun/p16
-	name = "P16 Assault Rifle Crate"
+	name = "M16A3 Assault Rifle Crate"
 	desc = "Contains a high-powered, automatic rifle chambered in 5.56mm."
 	cost = 5000
 	contains = list(/obj/item/storage/guncase/p16)

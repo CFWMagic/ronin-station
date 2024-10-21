@@ -552,7 +552,7 @@
 	backpack_contents = list(/obj/item/clothing/mask/gas/clip=1, /obj/item/storage/ration/chicken_wings_hot_sauce=1)
 
 /datum/outfit/job/clip/minutemen/grunt/dressed/armed
-	name = "CLIP Minutemen - Minuteman (Armed - CM-16)"
+	name = "CLIP Minutemen - Minuteman (Armed - M16A3)"
 
 	suit_store = /obj/item/gun/ballistic/automatic/assault/p16/minutemen
 	belt = /obj/item/storage/belt/military/clip/p16
@@ -580,7 +580,7 @@
 	belt = /obj/item/storage/belt/military/clip/engi
 
 /datum/outfit/job/clip/minutemen/grunt/dressed/engi/armed
-	name = "CLIP Minutemen - Field Engineer (Armed - CM-16)"
+	name = "CLIP Minutemen - Field Engineer (Armed - M16A3)"
 
 	suit_store = /obj/item/gun/ballistic/automatic/assault/p16/minutemen
 	backpack_contents = list(/obj/item/clothing/mask/gas/clip=1, /obj/item/storage/ration/chili_macaroni=1, /obj/item/grenade/c4=2, /obj/item/ammo_box/magazine/p16=3)

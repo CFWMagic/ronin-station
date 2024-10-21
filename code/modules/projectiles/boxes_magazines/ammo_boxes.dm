@@ -349,6 +349,14 @@
 	icon_state = "45box-incendiary"
 	ammo_type = /obj/item/ammo_casing/c45/inc
 
+// 24.10.21 CFW - Add 5.56x45 ammo box
+/obj/item/ammo_box/a556mm
+	name = "ammo box (5.56x45mm)"
+	desc = "A box of 5.56x45mm ammo, a SolGov standard."
+	icon_state = "556mmbox"
+	ammo_type = /obj/item/ammo_casing/a556_39
+	max_ammo = 100 //50
+
 /obj/item/ammo_box/c556mmHITP
 	name = "ammo box (5.56mm HITP caseless)"
 	desc = "A box of 5.56mm HITP caseless ammo, a SolGov standard."

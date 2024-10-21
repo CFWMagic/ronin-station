@@ -7,6 +7,8 @@
 	ammo_x_offset = 3
 	spread = 2
 	spread_unwielded = 4
+// 24.10.21 - CFW - Reduce taser and disabler size to fit pistols as requested by Netzach	
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/gun/energy/e_gun/advtaser
 	name = "hybrid taser"
@@ -17,6 +19,8 @@
 
 	spread = 2
 	spread_unwielded = 4
+// 24.10.21 - CFW - Reduce taser and disabler size to fit pistols as requested by Netzach	
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/gun/energy/e_gun/advtaser/cyborg
 	name = "cyborg taser"
@@ -38,6 +42,8 @@
 	manufacturer = MANUFACTURER_SHARPLITE_NEW
 	spread = 2
 	spread_unwielded = 4
+// 24.10.21 - CFW - Reduce taser and disabler size to fit pistols as requested by Netzach	
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/gun/energy/disabler/cyborg
 	name = "cyborg disabler"
@@ -54,3 +60,5 @@
 	mob_overlay_icon = 'icons/obj/guns/manufacturer/eoehoma/onmob.dmi'
 	icon_state = "e60"
 	manufacturer = MANUFACTURER_EOEHOMA
+// 24.10.21 - CFW - Reduce taser and disabler size to fit pistols as requested by Netzach	
+	w_class = WEIGHT_CLASS_SMALL

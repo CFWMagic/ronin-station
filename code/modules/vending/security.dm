@@ -109,6 +109,7 @@
 		/obj/item/ammo_box/magazine/m45 = 50,
 		/obj/item/ammo_box/magazine/smgm45 = 50,
 		/obj/item/ammo_box/magazine/sniper_rounds = 50,
+		/obj/item/ammo_box/magazine/p16 = 50,
 		/obj/item/ammo_box/magazine/m556 = 50,
 		/obj/item/ammo_box/magazine/m12g = 50,
 		/obj/item/ammo_box/magazine/ebr = 50,
@@ -130,6 +131,7 @@
 		/obj/item/ammo_box/c45/hp = 800,
 		/obj/item/ammo_box/c45/fire = 800,
 		/obj/item/ammo_box/c38_box = 800,
+		/obj/item/ammo_box/a556mm = 800,
 		/obj/item/ammo_box/c556mmHITP = 800,
 		/obj/item/ammo_box/c556mmHITP/ap = 800,
 		/obj/item/ammo_box/c556mmHITP/hp = 800,
@@ -160,13 +162,14 @@
 		/obj/item/clothing/suit/armor/vest/marine = 50,
 		/obj/item/clothing/suit/armor/vest/marine/medium = 50,
 		/obj/item/clothing/suit/armor/vest/marine/heavy = 50,
+		/obj/item/clothing/mask/gas/sechailer/swat/spacepol = 50,
 		/obj/item/clothing/accessory/holster/marine = 50,
 		/obj/item/storage/belt/military = 50,
-		/obj/item/clothing/mask/gas/sechailer/swat/spacepol = 50,
 		)
 	contraband = list()
 	premium = list()
 	voucher_items = list(
+		"M4A1 Carbine" = /obj/item/gun/ballistic/automatic/assault/p16/minutemen,
 		"SL AL-655 Energy Rifle" = /obj/item/gun/energy/e_gun/hades,
 		"NT-E-Rifle" = /obj/item/gun/energy/e_gun,
 		"E-TAR SMG" = /obj/item/gun/energy/e_gun/smg,
@@ -176,7 +179,9 @@
 		"M-90gl Carbine" = /obj/item/gun/ballistic/automatic/smg/m90,
 		"sniper rifle" = /obj/item/gun/ballistic/automatic/marksman/sniper_rifle,
 		"C-20r SMG" = /obj/item/gun/ballistic/automatic/smg/c20r,
-		"Bulldog Shotgun" = /obj/item/gun/ballistic/shotgun/bulldog)
+		"Bulldog Shotgun" = /obj/item/gun/ballistic/shotgun/bulldog,
+		)
+
 
 /obj/machinery/vending/security/marine/syndicate
 	icon_state = "syndicate-marine"

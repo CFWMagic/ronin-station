@@ -162,8 +162,8 @@
 	cost = 1000
 
 /datum/supply_pack/ammo/p16_ammo
-	name = "P-16 5.56mm Magazine Crate"
-	desc = "Contains a 5.56mm magazine for the P-16 rifle, containing thirty rounds."
+	name = "5.56x45mm STANAG Magazine Crate"
+	desc = "Contains a 5.56x45mm magazine for the M16A3 rifle or M4A1 carbine, containing thirty rounds."
 	contains = list(/obj/item/ammo_box/magazine/p16)
 	cost = 1000
 

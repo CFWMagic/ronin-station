@@ -19,6 +19,8 @@
 	wield_slowdown = 0.15
 
 	muzzleflash_iconstate = "muzzle_flash_light"
+// 24.10.21 CFW - Reduce weigt class for all pistols, as requested by Netzach
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/gun/ballistic/automatic/pistol/syndicate
 	name = "Stechkin"
