@@ -472,10 +472,12 @@
 		current_skin = null
 		to_chat(user, "You can reskin [src] again wtih <b>Alt-Click</b>.")
 
+// CFW - 24.10.20 - Upgrade marine chest carriers
 /obj/item/storage/belt/military/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_SMALL
+	STR.max_items = 14
+	STR.max_w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/belt/military/c20r/PopulateContents()
 	. = ..()

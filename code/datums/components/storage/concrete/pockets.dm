@@ -107,6 +107,8 @@
 	can_hold = typecacheof(list(
 		/obj/item/gun/ballistic/automatic/pistol,
 		/obj/item/gun/ballistic/revolver,
+		/obj/item/gun/energy/e_gun/mini,
+		/obj/item/gun/energy/disabler,
 		/obj/item/ammo_box))
 
 /datum/component/storage/concrete/pockets/holster/real_location()
@@ -150,3 +152,7 @@
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/pulse/carbine,
 		/obj/item/gun/energy/dueling))
+
+/datum/component/storage/concrete/pockets/holster/marine
+	max_items = 7
+	max_w_class = WEIGHT_CLASS_NORMAL

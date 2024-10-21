@@ -106,11 +106,14 @@
 // Magazines
 		/obj/item/ammo_box/magazine/uzim9mm = 50,
 		/obj/item/ammo_box/magazine/m10mm = 50,
+		/obj/item/ammo_box/magazine/m45 = 50,
 		/obj/item/ammo_box/magazine/smgm45 = 50,
 		/obj/item/ammo_box/magazine/sniper_rounds = 50,
 		/obj/item/ammo_box/magazine/m556 = 50,
 		/obj/item/ammo_box/magazine/m12g = 50,
 		/obj/item/ammo_box/magazine/ebr = 50,
+		/obj/item/ammo_box/magazine/skm_545_39 = 50,
+		/obj/item/ammo_box/magazine/skm_762_40 = 50,
 
 // Ammo Boxes
 		/obj/item/storage/toolbox/ammo = 50,
@@ -147,6 +150,18 @@
 		/obj/item/grenade/c4 = 50,
 		/obj/item/grenade/c4/x4 = 50,
 		/obj/item/gun/ballistic/rocketlauncher/solgov = 50,
+
+// Gear
+		/obj/item/clothing/under/rank/security/officer/military = 50,
+		/obj/item/clothing/under/rank/security/officer/military/eng = 50,
+		/obj/item/clothing/shoes/combat/coldres = 50,
+		/obj/item/clothing/gloves/combat = 50,
+		/obj/item/clothing/head/helmet/marine = 50,
+		/obj/item/clothing/suit/armor/vest/marine = 50,
+		/obj/item/clothing/suit/armor/vest/marine/medium = 50,
+		/obj/item/clothing/suit/armor/vest/marine/heavy = 50,
+		/obj/item/clothing/accessory/holster/marine = 50,
+		/obj/item/storage/belt/military = 50,
 		)
 	contraband = list()
 	premium = list()
