@@ -50,7 +50,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/industrial/warning,
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 8
 	},
@@ -384,8 +383,6 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/effect/decal/cleanable/oil,
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
@@ -445,7 +442,6 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/bot/cleanbot,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
@@ -1033,7 +1029,6 @@
 	dir = 8
 	},
 /obj/structure/chair/sofa/brown/right/directional/south,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "jI" = (
@@ -1050,7 +1045,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "jU" = (
@@ -1066,7 +1060,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/pew/right{
 	pixel_y = 8
 	},
@@ -2151,7 +2144,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
@@ -2286,7 +2278,6 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/item/radio/intercom/directional/west,
 /obj/machinery/firealarm/directional/west,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ship/crew/library)
 "wn" = (
@@ -2360,8 +2351,6 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/oil/streak,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "wO" = (
@@ -2600,7 +2589,6 @@
 	dir = 9
 	},
 /obj/machinery/light/small/directional/west,
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/toilet/secret{
 	secret_type = /obj/item/storage/box/donkpockets/donkpocketgondola;
 	pixel_y = 10
@@ -3668,7 +3656,6 @@
 	dir = 8
 	},
 /obj/structure/chair/sofa/brown/left/directional/north,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "IP" = (
@@ -3708,7 +3695,6 @@
 /obj/structure/cable{
 	icon_state = "0-1"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "Ji" = (
@@ -3885,7 +3871,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/directional/west,
 /obj/structure/chair/pew/left{
 	pixel_y = 8
@@ -3944,7 +3929,6 @@
 /turf/open/floor/wood,
 /area/ship/crew)
 "LO" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/opaque/white/diagonal,
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -4088,7 +4072,6 @@
 /area/ship/crew/canteen)
 "MZ" = (
 /obj/structure/chair/sofa/brown/right/directional/north,
-/obj/effect/decal/cleanable/dirt,
 /obj/item/radio/intercom/directional/east,
 /obj/machinery/light_switch{
 	dir = 8;
@@ -4241,7 +4224,6 @@
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ship/crew/dorm)
 "Pa" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/corner/opaque/white/diagonal,
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/plasteel,
@@ -4411,10 +4393,6 @@
 	pixel_y = 4;
 	pixel_x = 5
 	},
-/obj/item/trash/chips{
-	pixel_x = -5;
-	pixel_y = 2
-	},
 /obj/effect/turf_decal/trimline/opaque/yellow/line{
 	dir = 1
 	},
@@ -4529,7 +4507,6 @@
 /obj/effect/turf_decal/borderfloorwhite{
 	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
 "Ss" = (
@@ -4766,10 +4743,6 @@
 	},
 /obj/structure/railing/corner{
 	dir = 8
-	},
-/obj/effect/decal/cleanable/garbage{
-	pixel_x = -12;
-	pixel_y = -4
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
